@@ -1,36 +1,35 @@
 # 2026 Work Diary Index
 
-Source: https://docs.google.com/spreadsheets/d/1aZ4GTOWWdr9DnHY2S6jTMzJvd2r9vG1qi3KK6vaMdHU/edit?gid=1636212844#gid=1636212844
+来源：https://docs.google.com/spreadsheets/d/1aZ4GTOWWdr9DnHY2S6jTMzJvd2r9vG1qi3KK6vaMdHU/edit?gid=1636212844#gid=1636212844
 
-Preview read on 2026-07-06 from sheet `2026`.
+2026-07-06 已读取 sheet `2026` 的 preview。
 
-## Current July Signals
+## 7 月当前信号
 
-| Area | Status | Topic | Note |
+| 领域 | 状态 | 主题 | 备注 |
 |---|---|---|---|
-| AI | WIP | OKR dashboard field | Need L30 active users for saving time and coverage calculation. |
-| AI | WIP | AI OKR target adjustment | Fashion cluster team reduction may affect target feasibility. |
-| AI | WIP | Incentives Q2 | Q2 incentive event expected 2026-07-06 to 2026-07-20, pending People briefing. |
-| AI | WIP P0 | AI Knowledge plan | UAT route, version route, Atlas, Venda, Echo personal KB. |
-| BI/AI | WIP P0 | CNLS Diana | LFF full-process AI tool, Diana architecture, LFF inventory AI skill. |
-| AI | WIP | Route / AIS switch | Model configuration for Codex/Claude CLI via AIS switch. |
-| AI | WIP | AI PMO | 2026-07-08 CNCB AI monthly. |
-| BI | WIP | RTS qty bug | Needs BI debugging path. |
+| AI | WIP | OKR dashboard 加字段 | 需要 L30 active users，用于计算 saving time 和 coverage。 |
+| AI | WIP | AI OKR target 调整 | Fashion cluster team 减少可能影响 target 可达成性。 |
+| AI | WIP | Incentives Q2 | Q2 incentive event 预计 2026-07-06 到 2026-07-20，等待 People briefing。 |
+| AI | WIP P0 | AI Knowledge 计划 | UAT route、version route、Atlas、Venda、Echo personal KB。 |
+| BI/AI | WIP P0 | CNLS Diana | LFF 全流程 AI tool、Diana 架构、LFF inventory AI skill。 |
+| AI | WIP | Route / AIS switch | 通过 AIS switch 配置 Codex/Claude CLI 的模型。 |
+| AI | WIP | AI PMO | 2026-07-08 CNCB AI monthly。 |
+| BI | WIP | RTS qty bug | 需要 BI debugging path。 |
 
-## June Completed / Active Themes
+## 6 月已完成 / 活跃主题
 
-- AI Knowledge plan: Knowledge, Echo, Atlas, AI Eco PMO tracker, enterprise knowledge governance, Q2 update.
-- CNLS Diana: LFF full-process AI tool and inventory AI skill.
-- AI PMO: CNCB AI Monitor and monthly meeting materials.
-- Training: dev-product-process training, AI training tracking, SMART visit.
-- BI: BI monthly updates, VISMIN deepdive, RTS qty issue, LFF ops diagnosis.
-- Diana / LFF: ADO fields and CNLS/LFF warehouse model tables.
+- AI Knowledge plan：Knowledge、Echo、Atlas、AI Eco PMO tracker、enterprise knowledge governance、Q2 update。
+- CNLS Diana：LFF full-process AI tool 和 inventory AI skill。
+- AI PMO：CNCB AI Monitor 和 monthly meeting materials。
+- Training：dev-product-process training、AI training tracking、SMART visit。
+- BI：BI monthly updates、VISMIN deepdive、RTS qty issue、LFF ops diagnosis。
+- Diana / LFF：ADO fields 和 CNLS/LFF warehouse model tables。
 
-## Routing Hints
+## 路由提示
 
-- For AI OKR, user adoption, monthly reporting, or incentive tracking: use `rutong-ai-pmo`.
-- For AI Knowledge, Echo, Atlas, Macro, Skill Factory, Sentinel: use `rutong-ai-pmo` and read `docs/ai-eco-context.md`.
-- For deck or HTML materials: use `rutong-ppt-html`.
-- For speaker scripts or training facilitation: use `rutong-script`.
-- For CNLS Diana, LFF skill, RTS qty, ADO, warehouse tables: use `rutong-bi-sql`.
-
+- AI OKR、user adoption、monthly reporting、incentive tracking：用 `rutong-ai-pmo`。
+- AI Knowledge、Echo、Atlas、Macro、Skill Factory、Sentinel：用 `rutong-ai-pmo`，并读 `docs/ai-eco-context.md`。
+- Deck 或 HTML 材料：用 `rutong-ppt-html`。
+- 讲稿或培训 facilitation：用 `rutong-script`。
+- CNLS Diana、LFF skill、RTS qty、ADO、warehouse tables：用 `rutong-bi-sql`。

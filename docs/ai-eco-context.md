@@ -1,55 +1,54 @@
 # AI Eco Context
 
-## Latest Working Definition
+## 最新工作定义
 
-AI Eco is the CNCB AI ecosystem building program. Its goal is to increase AI coverage through progressive delivery of connected products and workflow assets.
+AI Eco 是 CNCB AI 生态体系搭建项目。目标是通过渐进式交付一组互相连接的产品和 workflow assets，提升 AI coverage。
 
-The current operating model:
+当前 operating model：
 
-- Macro Desktop acts as the AI brain and user-facing workbench.
-- Knowledge Program exposes personal and enterprise knowledge through Knowledge product capabilities.
-- Atlas is the enterprise knowledge governance tool.
-- Skill Factory creates reusable atomic AI capabilities.
-- Sentinel supports signal-to-action workflows.
-- Diana is the AI data analysis and auto-query tool, especially relevant for BI workflows.
+- Macro Desktop 是 AI brain 和面向用户的 workbench。
+- Knowledge Program 通过 Knowledge product 暴露个人知识和企业知识。
+- Atlas 是企业知识治理工具。
+- Skill Factory 生产可复用的 atomic AI capability。
+- Sentinel 支撑 signal-to-action workflow。
+- Diana 是 AI 数据分析和自动取数工具，尤其适合 BI workflow。
 
-## Rutong's Role
+## Rutong 的角色
 
-Rutong's AI role is closest to AI strategy PMO plus product delivery operator:
+Rutong 的 AI role 更接近 AI strategy PMO + product delivery operator：
 
-- Structure ambiguous business needs into phased roadmaps and deliverables.
-- Coordinate AI project delivery across business, BI, DI, data, algorithm, and platform resources.
-- Build adoption and value tracking mechanisms, including ROI and coverage.
-- Standardize AI project delivery workflows, collaboration rules, and reusable knowledge.
-- Translate business vision into executable AI products, tools, decks, and training material.
+- 把模糊业务需求拆成 phased roadmap 和 deliverables。
+- 协调 business、BI、DI、data、algorithm、platform 等资源推进 AI project delivery。
+- 建立 adoption 和价值追踪机制，包括 ROI 和 coverage。
+- 标准化 AI 项目的落地流程、协作规则和可复用知识。
+- 把业务愿景转成可执行的 AI 产品、工具、deck 和培训材料。
 
-## High-Frequency Work
+## 高频工作
 
-- User adoption: make AI delivery understandable, friendly, and usable for target users.
-- Upward reporting: show progress, business value, coverage, blockers, and next asks.
-- Training delivery: AI@Work materials, scripts, live facilitation, prompt/KB/tool education.
-- AI Eco PMO: roadmap, product boundary, workstream tracking, governance, dependency management.
-- BI and Diana: turn business questions into data tools, topics, SQL, and explainable metrics.
+- User adoption：让 AI delivery 对目标用户更好理解、更友好、更能用。
+- 向上汇报：说明进展、业务价值、coverage、blocker 和 next ask。
+- 培训交付：AI@Work 材料、讲稿、现场引导、prompt/KB/tool 教学。
+- AI Eco PMO：roadmap、产品边界、workstream tracking、governance、dependency management。
+- BI 和 Diana：把业务问题转成数据工具、topic、SQL 和可解释指标。
 
-## Current Product Map
+## 当前产品地图
 
-| Area | Role |
+| 模块 | 角色 |
 |---|---|
-| Macro Desktop | AI brain, interaction layer, workflow workbench |
-| Knowledge | Personal and enterprise knowledge exposure |
-| Echo | Personal memory, Seatalk/Gmail source ingestion, knowledge extraction |
-| Atlas | Enterprise official knowledge inventory, governance, citation, feedback loop |
-| Skill Factory | Reusable skill registry, lifecycle, ownership, testing, publication |
-| Sentinel | Alerts, tasks, reminders, signal-to-action loop |
-| Diana | AI analytics engine and auto-query tool |
-| Bedrock | Governance, policy, model routing, audit, cost and risk control |
-| Synapse | Event, API, webhook, callback, and workflow integration layer |
+| Macro Desktop | AI brain、interaction layer、workflow workbench |
+| Knowledge | 暴露个人知识和企业知识 |
+| Echo | Personal memory、Seatalk/Gmail 数据源接入、知识提炼 |
+| Atlas | 企业官方知识 inventory、governance、citation、feedback loop |
+| Skill Factory | 可复用 skill registry、lifecycle、ownership、testing、publication |
+| Sentinel | Alerts、tasks、reminders、signal-to-action loop |
+| Diana | AI analytics engine 和 auto-query tool |
+| Bedrock | Governance、policy、model routing、audit、cost 和 risk control |
+| Synapse | Event、API、webhook、callback 和 workflow integration layer |
 
-## Working Principles
+## 工作原则
 
-- Do not describe AI Eco as generic AI transformation. Ground it in product delivery, workflow coverage, adoption, ROI, and reusable assets.
-- Distinguish Macro as interaction layer from Diana as analytics engine.
-- Distinguish personal knowledge from enterprise official knowledge.
-- Show workflow proof before operating model claims.
-- For executive pages, state what changed, what value was created, what risk remains, and what decision or support is needed.
-
+- 不要把 AI Eco 写成泛泛的 AI transformation。要落到 product delivery、workflow coverage、adoption、ROI 和 reusable assets。
+- 区分 Macro 作为 interaction layer，和 Diana 作为 analytics engine。
+- 区分 personal knowledge 和 enterprise official knowledge。
+- 先展示 workflow proof，再讲 operating model。
+- 面向老板的页面要说清楚：变了什么、创造了什么价值、还有什么风险、需要什么决策或支持。

@@ -1,59 +1,58 @@
 # Neatness Governance
 
-Adapted from the `neat-freak` skill, but simplified for Rutong's personal AI PMO knowledge repo.
+这是从 `neat-freak` skill 改造来的规则，但已简化成适合 Rutong 个人 AI PMO 知识库的版本。
 
-## Verdict On Neat-Freak
+## 对 Neat-Freak 的判断
 
-Neat-freak is useful for Rutong, but not as a direct install-and-run rule set.
+`neat-freak` 适合 Rutong，但不适合原样 install-and-run。
 
-Useful parts:
+值得借鉴的部分：
 
-- Separate durable docs from agent memory and skills.
-- Keep docs authoritative and skills concise.
-- Run regular cleanup instead of appending forever.
-- Check stale links, duplicated resources, dead references, and oversized files.
-- Treat repo structure as part of the working system, not decoration.
+- 区分稳定 docs、agent memory 和 skills。
+- docs 做权威层，skills 保持精简。
+- 定期 cleanup，不要无限追加。
+- 检查 stale links、重复资源、dead references 和过长文件。
+- 把 repo 结构当成工作系统的一部分，而不是装饰。
 
-Parts to simplify:
+需要简化的部分：
 
-- It is optimized for software projects with `CLAUDE.md`, code routes, APIs, and deployment docs.
-- Rutong's repo is a personal PMO and AI delivery knowledge base, so the scan should focus on resources, decks, sheets, skills, and workstream state.
-- Do not over-audit every file on every session. Use lightweight periodic checks.
+- 原版更适合有 `CLAUDE.md`、code routes、API 和 deployment docs 的软件项目。
+- Rutong 的 repo 是个人 PMO 和 AI delivery 知识库，扫描重点应是 resources、decks、sheets、skills 和 workstream state。
+- 不要每次都重审所有文件。用轻量、周期性的检查。
 
-## Local-First Rule
+## 本地优先规则
 
-All content changes should happen locally first:
+所有内容变更都先发生在本地：
 
-1. Edit local files in the repo.
-2. Show summary or relevant diff to Rutong.
-3. Push only after confirmation.
+1. 先改 repo 本地文件。
+2. 给 Rutong 看摘要或关键 diff。
+3. 确认后再 push。
 
 ## Hygiene Scan
 
-Run periodically or when Rutong says `整理一下`, `neat`, `sync`, `沉淀一下`, `更新知识库`, or `检查github是否neat`.
+当 Rutong 说 `整理一下`、`neat`、`sync`、`沉淀一下`、`更新知识库` 或 `检查github是否neat` 时触发；平时也应定期执行。
 
-Check:
+检查：
 
-- `docs/resource-index.md`: links still present, new links added, dead or blocked links marked.
-- `docs/work-diary-index.md`: current WIP still current, completed items moved or summarized.
-- `skills/`: SKILL.md files are concise and route to references instead of becoming long docs.
-- `docs/`: no duplicate explanation of the same AI Eco definition across many files.
-- Git status: local changes are intentional and grouped.
-- Repo root: no random scratch files, exports, or large binary files unless intentionally placed.
+- `docs/resource-index.md`：链接是否仍存在，新链接是否补充，失效或 blocked links 是否标记。
+- `docs/work-diary-index.md`：当前 WIP 是否仍然 current，完成项是否迁移或总结。
+- `skills/`：`SKILL.md` 是否精简，是否路由到 references，而不是变成长文档。
+- `docs/`：不要在多个文件里重复解释同一个 AI Eco 定义。
+- Git status：本地变更应是有意且成组的。
+- Repo root：不要堆随机 scratch files、exports 或大二进制文件，除非明确需要。
 
-## Size Rules
+## 体量规则
 
-- Keep each `SKILL.md` under 250 lines if possible.
-- Put detailed examples in `references/`.
-- Put resource links in `docs/resource-index.md`.
-- Put stable business definitions in `docs/ai-eco-context.md`.
-- Put temporary scratch or raw extraction outside the repo, unless it is intentionally curated.
+- 每个 `SKILL.md` 尽量控制在 250 行以内。
+- 详细 examples 放 `references/`。
+- 资源链接放 `docs/resource-index.md`。
+- 稳定业务定义放 `docs/ai-eco-context.md`。
+- 临时 scratch 或 raw extraction 默认放 repo 外，除非它已经被刻意整理。
 
 ## Graduation Rule
 
-If the same correction appears three times, promote it into:
+同一个修正出现 3 次，就沉淀到更稳定的位置：
 
-- `docs/working-style.md` if it is a collaboration preference.
-- A specific `skills/*/SKILL.md` if it should change agent behavior.
-- A `skills/*/references/*.md` file if it is detailed domain or artifact knowledge.
-
+- 如果是协作偏好，放进 `docs/working-style.md`。
+- 如果要改变 agent 行为，放进对应 `skills/*/SKILL.md`。
+- 如果是详细领域知识或产物知识，放进 `skills/*/references/*.md`。

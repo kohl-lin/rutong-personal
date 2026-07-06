@@ -1,43 +1,42 @@
 ---
 name: rutong-working-style
-description: Rutong Lin's default collaboration style and routing skill. Use when a task involves Rutong's recurring work, ambiguous goals, skill or knowledge-base updates, AI PMO work, deck/script/BI requests, or when Codex should decide whether to clarify, execute locally, summarize, or route to a focused Rutong skill.
+description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的长期工作、目标不清、skill 或知识库更新、AI PMO、deck/script/BI 请求，或需要 Codex 判断应该先澄清、直接本地执行、总结，还是路由到更聚焦的 Rutong skill。
 ---
 
 # Rutong Working Style
 
-## Default Contract
+## 默认约定
 
-Use first-principles reasoning. Do not assume Rutong knows the exact goal or the best path.
+使用第一性原理思考。不要假设 Rutong 已经知道精确目标或最优路径。
 
-1. Identify the task type: decision, deliverable, debugging, report, writing, skill update, or knowledge cleanup.
-2. If the goal is unclear, ask one concise clarifying question.
-3. If the goal is clear but the requested path is inefficient, state the better route and proceed when safe.
-4. Prefer a concrete artifact over advice.
-5. Read the source artifact before summarizing or editing.
-6. Edit locally first. Push only after Rutong confirms.
+1. 先判断任务类型：decision、deliverable、debugging、report、writing、skill update 或 knowledge cleanup。
+2. 目标不清时，问一个简洁的澄清问题。
+3. 目标清楚但路径低效时，指出更好的路线；安全时直接推进。
+4. 优先交付具体产物，而不是只给建议。
+5. 总结或编辑前先读源材料。
+6. 先改本地，Rutong 确认后再 push。
 
-## Route To Focused Skills
+## 路由到聚焦 Skill
 
-- AI PMO, AI Eco, adoption, roadmap, ROI, executive reporting: use `rutong-ai-pmo`.
-- PPT, HTML deck, layout, slide polish, visual QA: use `rutong-ppt-html`.
-- Speaker notes, training scripts, audience adaptation, live interaction prompts: use `rutong-script`.
-- SQL, Diana, BI data analysis, LFF Ops, CNLS, metric debugging: use `rutong-bi-sql`.
+- AI PMO、AI Eco、adoption、roadmap、ROI、向上汇报：用 `rutong-ai-pmo`。
+- PPT、HTML deck、layout、slide polish、visual QA：用 `rutong-ppt-html`。
+- Speaker notes、培训讲稿、受众适配、现场互动提示：用 `rutong-script`。
+- SQL、Diana、BI data analysis、LFF Ops、CNLS、指标 debug：用 `rutong-bi-sql`。
 
-## Hard Quality Gates
+## 硬性质量闸门
 
-- No source-free summaries.
-- No fake writes or fake access.
-- No repeated "不是 X, 而是 Y" phrasing in deck copy. Say the point directly.
-- No generic AI transformation language when AI Eco delivery details are needed.
-- No SQL dialect assumptions.
-- No deck/script sync drift.
-- No treating Rutong's own chat question as a boss-originated task.
+- 不要没读源材料就总结。
+- 不要假装已经写入或拿到权限。
+- deck copy 里不要反复写“不是 X，而是 Y”；直接说结论。
+- 需要 AI Eco delivery 细节时，不要写泛泛 AI transformation。
+- 不要假设 SQL dialect。
+- 不要让 deck 和 script 不同步。
+- 不要把 Rutong 自己的聊天问题当成老板布置的任务。
 
 ## References
 
-Read these when needed:
+需要时读取：
 
 - `../../docs/working-style.md`
 - `../../docs/resource-index.md`
 - `../../docs/neatness-governance.md`
-

@@ -1,46 +1,45 @@
 ---
 name: rutong-ppt-html
-description: Build, revise, critique, or package PPT and HTML decks for Rutong Lin, including AI PMO, AI Eco, training, executive updates, layout previews, source sync, visual QA, and deck-specific quality gates.
+description: 为 Rutong Lin 创建、修改、review 或包装 PPT 和 HTML deck，覆盖 AI PMO、AI Eco、training、executive updates、layout previews、source sync、visual QA 和 deck-specific quality gates。
 ---
 
 # Rutong PPT HTML
 
-## Purpose
+## 目的
 
-Create or revise usable presentation surfaces: editable PPTX, HTML deck, or browser-openable slide preview. Do not treat this as a script-writing skill.
+创建或修改能直接使用的 presentation surface：editable PPTX、HTML deck，或可在浏览器打开的 slide preview。不要把这个 skill 当成讲稿写作 skill。
 
-## Default Workflow
+## 默认流程
 
-1. Inspect the existing deck or source material first.
-2. Determine mode: new deck, deck polish, HTML package, single-slide layout preview, executive report, or sync fix.
-3. Preserve content when Rutong says content should not change.
-4. Choose page archetypes before building: workflow bridge, capability stack, value stream, matrix, roadmap, screenshot evidence, or hero statement.
-5. Check deck consistency: TOC, page order, footer numbers, hidden slides, linked speaker notes.
-6. Render or preview when possible.
+1. 先检查现有 deck 或 source material。
+2. 判断 mode：new deck、deck polish、HTML package、single-slide layout preview、executive report 或 sync fix。
+3. Rutong 说内容不改时，必须保留原内容。
+4. 构建前先选 page archetypes：workflow bridge、capability stack、value stream、matrix、roadmap、screenshot evidence 或 hero statement。
+5. 检查 deck consistency：TOC、页面顺序、footer 页码、hidden slides、linked speaker notes。
+6. 能 render 或 preview 时必须验证。
 
-## Rutong-Specific Rules
+## Rutong 专属规则
 
-- Prefer direct answer-first titles.
-- Avoid repeated "不是 X, 而是 Y" copy. Write the conclusion directly.
-- Use strong but purposeful visual emphasis: highlight chips, yellow good/bad boxes, clear owner/status markers.
-- Do not add visible prompt residue, implementation notes, or internal reasoning.
-- If a slide should be hidden but recoverable, hide it at presentation layer instead of deleting it.
-- If GitHub and local deck versions differ, confirm source of truth or follow the user's latest source-of-truth instruction.
+- 优先使用 answer-first title。
+- 避免反复写“不是 X，而是 Y”；直接写结论。
+- 视觉强调要强但有意义：highlight chips、黄色 good/bad boxes、清晰 owner/status markers。
+- 不要把 prompt residue、implementation notes 或 internal reasoning 放进可见页面。
+- 如果 slide 需要隐藏但未来可能恢复，用 presentation layer 隐藏，不要删除。
+- GitHub 和本地 deck 版本不一致时，确认 source of truth，或遵循用户最新的 source-of-truth 指令。
 
-## Output Contract
+## 输出约定
 
-Return:
+返回：
 
-- changed file path or local preview path,
-- concise change summary,
-- verification performed,
-- anything not verified.
+- 修改后的文件路径或本地 preview 路径，
+- 简短 change summary，
+- 已完成的验证，
+- 未验证事项。
 
 ## References
 
-Read when relevant:
+相关时读取：
 
 - `../../docs/working-style.md`
 - `../../docs/resource-index.md`
 - `../../docs/skill-architecture.md`
-
