@@ -9,6 +9,12 @@ description: 为 Rutong Lin 创建、修改、review 或包装 PPT 和 HTML deck
 
 创建或修改能直接使用的 presentation surface：editable PPTX、HTML deck，或可在浏览器打开的 slide preview。不要把这个 skill 当成讲稿写作 skill。
 
+## 先读
+
+总是先读：
+
+- `references/deck-quality-playbook.md`
+
 ## 默认流程
 
 1. 先检查现有 deck 或 source material。
@@ -38,8 +44,6 @@ description: 为 Rutong Lin 创建、修改、review 或包装 PPT 和 HTML deck
 
 ## References
 
-相关时读取：
+涉及 AI PMO / AI Eco deck 时，也读：
 
-- `../../docs/working-style.md`
-- `../../docs/resource-index.md`
-- `../../docs/skill-architecture.md`
+- `references/ai-pmo-deck-patterns.md`

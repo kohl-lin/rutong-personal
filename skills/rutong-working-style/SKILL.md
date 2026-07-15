@@ -16,6 +16,12 @@ description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的
 5. 总结或编辑前先读源材料。
 6. 先改本地，Rutong 确认后再 push。
 
+## 先读
+
+处理 Rutong 的长期工作或模糊需求时，先读：
+
+- `references/collaboration-rules.md`
+
 ## 路由到聚焦 Skill
 
 - AI PMO、AI Eco、adoption、roadmap、ROI、向上汇报：用 `rutong-ai-pmo`。
@@ -35,8 +41,6 @@ description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的
 
 ## References
 
-需要时读取：
+如任务涉及 repo/knowledge 整理，也读：
 
-- `../../docs/working-style.md`
-- `../../docs/resource-index.md`
-- `../../docs/neatness-governance.md`
+- `references/knowledge-repo-rules.md`

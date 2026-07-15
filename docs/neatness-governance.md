@@ -37,6 +37,7 @@
 - `docs/resource-index.md`：链接是否仍存在，新链接是否补充，失效或 blocked links 是否标记。
 - `docs/work-diary-index.md`：当前 WIP 是否仍然 current，完成项是否迁移或总结。
 - `skills/`：`SKILL.md` 是否精简，是否路由到 references，而不是变成长文档。
+- `skills/*/references/`：全局安装后需要的上下文是否自包含，不能依赖 repo 外的 `../../docs/...`。
 - `docs/`：不要在多个文件里重复解释同一个 AI Eco 定义。
 - Git status：本地变更应是有意且成组的。
 - Repo root：不要堆随机 scratch files、exports 或大二进制文件，除非明确需要。
@@ -45,6 +46,7 @@
 
 - 每个 `SKILL.md` 尽量控制在 250 行以内。
 - 详细 examples 放 `references/`。
+- 全局 skill 需要的 reference 必须跟随 skill folder 一起安装。
 - 资源链接放 `docs/resource-index.md`。
 - 稳定业务定义放 `docs/ai-eco-context.md`。
 - 临时 scratch 或 raw extraction 默认放 repo 外，除非它已经被刻意整理。

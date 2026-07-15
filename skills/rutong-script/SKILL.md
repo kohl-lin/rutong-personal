@@ -9,6 +9,12 @@ description: 为 Rutong Lin 起草、修改或适配 speaker notes、training sc
 
 生成简洁、能直接讲、考虑受众的讲稿。这个 skill 和 deck design 分开，但必须和 deck 保持 page-level sync。
 
+## 先读
+
+总是先读：
+
+- `references/script-style-playbook.md`
+
 ## 默认流程
 
 1. 先读 source deck 或当前 script。
@@ -33,7 +39,6 @@ description: 为 Rutong Lin 起草、修改或适配 speaker notes、training sc
 
 ## References
 
-相关时读取：
+涉及培训或 adoption 时，也读：
 
-- `../../docs/working-style.md`
-- `../../docs/resource-index.md`
+- `references/training-adoption-lines.md`

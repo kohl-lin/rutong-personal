@@ -9,6 +9,12 @@ description: 处理 Rutong Lin 的 BI、SQL、Diana、LFF Ops、CNLS、metric de
 
 debug 指标、生成或修改 SQL、分析 BI 数据，并把数据证据转成简洁的运营结论。
 
+## 先读
+
+总是先读：
+
+- `references/bi-sql-diana-playbook.md`
+
 ## 默认流程
 
 1. 先确认工具和引擎：Diana、Presto、Trino、Spark、Hive、Sheets、dashboard 或 SQL file。
@@ -37,8 +43,6 @@ debug 指标、生成或修改 SQL、分析 BI 数据，并把数据证据转成
 
 ## References
 
-相关时读取：
+涉及 LFF Ops / CNLS / Diana 时，也读：
 
-- `../../docs/work-diary-index.md`
-- `../../docs/resource-index.md`
-- `../../docs/working-style.md`
+- `references/lff-cnls-context.md`

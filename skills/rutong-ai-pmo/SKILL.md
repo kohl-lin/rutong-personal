@@ -13,6 +13,13 @@ description: 处理 Rutong Lin 的 AI PMO、AI Eco、user adoption、delivery pl
 
 AI Eco 是 CNCB AI 生态体系搭建项目。它通过渐进式 delivery 提升 AI coverage：以 Macro Desktop 作为 AI brain，整合 Knowledge Program、Knowledge product、Atlas、Skill Factory、Sentinel、Diana 和相关 workflow assets。
 
+## 先读
+
+总是先读：
+
+- `references/ai-eco-context.md`
+- `references/adoption-reporting-playbook.md`
+
 ## 默认流程
 
 1. 明确受众：boss、PMO team、BI/DI、business user、AI Eco participant 或 training audience。
@@ -31,8 +38,6 @@ AI Eco 是 CNCB AI 生态体系搭建项目。它通过渐进式 delivery 提升
 
 ## References
 
-相关时读取：
+需要追踪材料来源时读取：
 
-- `../../docs/ai-eco-context.md`
-- `../../docs/work-diary-index.md`
-- `../../docs/resource-index.md`
+- `references/resource-map.md`
