@@ -34,6 +34,9 @@ AI Eco 是 CNCB AI 生态体系搭建项目。它通过渐进式 delivery 提升
 - 向上汇报要说清 progress、value、blocker、risk 和 next ask。
 - 做 product framing 时，先给 workflow proof，再讲 target operating model。
 - 区分 Macro、Diana、Knowledge、Atlas、Echo、Skill Factory 和 Sentinel。
+- 涉及 AI Eco weekly tracker 时，优先使用 `ai-eco-weekly-update`；涉及 Macro 实机验收时，优先使用 `macro-desktop-pmo-audit`。
+- 先判断 ownership，再判断 status；不要用 source `Done`、GitLab commit 或可见 UI 直接推导 UAT / 上线。
+- 把 `上线/已修复` 保留为 Rutong 最终确认的 terminal state。
 - 避免泛泛 AI slogans。
 
 ## References

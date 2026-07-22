@@ -2,6 +2,12 @@
 
 这个文件记录源链接和本地资源。后续做总结、deck、skill 或知识整理时，应先查这里，不要重复找上下文。
 
+## Link Audit
+
+- 2026-07-22：公开 `neat-freak` source 仍可访问，本地 Qu Yue PPTX skill zip 仍存在。
+- 2026-07-22：Google Drive connector 返回 `USER_NOT_LOGGED_IN`；下列 Google Docs / Sheets / Slides 的历史读取记录保留，但本次 link health 均标记为 `blocked/unknown`。
+- 2026-07-22：DataSuite、Diana 和 MLP 私有链接未在已认证环境中复核，标记为 `blocked/unknown`。
+
 ## 培训 Phase 1
 
 | 资源 | 链接 | 当前记录 |
@@ -17,7 +23,8 @@
 | Macro first report PPT | https://docs.google.com/presentation/d/1DpHBeZrc0dg3VTuAieflfyCE8ZgBMMgNyidycAXVLCU/edit?slide=id.g3d04a25b040_0_87#slide=id.g3d04a25b040_0_87 | 2026-07-06 本地读取时 Slides API 因 `SERVICE_DISABLED` 被拦。需要内容时走 Drive export fallback。 |
 | AI Eco report PPT | https://docs.google.com/presentation/d/13i961-OItGmA-Dhf8DxcaEteg1yGJmXSDqFexAcoLl8/edit?slide=id.g3d04a25b040_0_87#slide=id.g3d04a25b040_0_87 | 2026-07-06 本地读取时 Slides API 因 `SERVICE_DISABLED` 被拦。需要内容时走 Drive export fallback。 |
 | Knowledge / Echo / Atlas PMO sheet | https://docs.google.com/spreadsheets/d/1m0zrgepYbvKHAJrgtsILqzgTCWyBntATONLG6d-8qts/edit?gid=525686385#gid=525686385 | 2026-07-06 已读。Roadmap 包含 Cross-Knowledge、Macro dependency、Echo、Atlas 和 knowledge quality workstreams。 |
-| AI Eco PMO tracker | https://docs.google.com/spreadsheets/d/1C-DbQoMJA63R1LLu3nWkhKMhMOXjGbusQANQrW2G3KE/edit?gid=231054361#gid=231054361 | 2026-07-06 已读。Quarterly roadmap 覆盖 Knowledge、Data、Action、Tech、Macro Desktop、Echo、Atlas、Skill Factory、Sentinel、Halo、Bedrock、Synapse。 |
+| AI Eco roadmap / archive tracker | https://docs.google.com/spreadsheets/d/1C-DbQoMJA63R1LLu3nWkhKMhMOXjGbusQANQrW2G3KE/edit?gid=231054361#gid=231054361 | 2026-07-06 已读。保留为 quarterly roadmap 与 archive source，不再作为当前 weekly cockpit。 |
+| Current AI Eco Weekly Tracker | https://docs.google.com/spreadsheets/d/1A4vHBp1Y-ZmSCEMM15fJwrvf1yv6jrLlCpMg2o5mxug/edit?gid=71307472#gid=71307472 | 2026-07-21 已核对。单页任务细项 tracker；J 是当前 PMO 状态，Q:AL 是 Rutong 确认后的周历史。 |
 | 2026 work diary | https://docs.google.com/spreadsheets/d/1aZ4GTOWWdr9DnHY2S6jTMzJvd2r9vG1qi3KK6vaMdHU/edit?gid=1636212844#gid=1636212844 | 2026-07-06 已读 preview。是当前 WIP 和已完成 AI/BI workstream 的来源。 |
 
 ## 本地资源

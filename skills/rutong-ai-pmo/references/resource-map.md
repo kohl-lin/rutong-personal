@@ -8,10 +8,12 @@
 - Macro first report PPT: `https://docs.google.com/presentation/d/1DpHBeZrc0dg3VTuAieflfyCE8ZgBMMgNyidycAXVLCU/edit?slide=id.g3d04a25b040_0_87#slide=id.g3d04a25b040_0_87`
 - AI Eco report PPT: `https://docs.google.com/presentation/d/13i961-OItGmA-Dhf8DxcaEteg1yGJmXSDqFexAcoLl8/edit?slide=id.g3d04a25b040_0_87#slide=id.g3d04a25b040_0_87`
 - Knowledge / Echo / Atlas PMO sheet: `https://docs.google.com/spreadsheets/d/1m0zrgepYbvKHAJrgtsILqzgTCWyBntATONLG6d-8qts/edit?gid=525686385#gid=525686385`
-- AI Eco PMO tracker: `https://docs.google.com/spreadsheets/d/1C-DbQoMJA63R1LLu3nWkhKMhMOXjGbusQANQrW2G3KE/edit?gid=231054361#gid=231054361`
+- AI Eco roadmap / archive tracker: `https://docs.google.com/spreadsheets/d/1C-DbQoMJA63R1LLu3nWkhKMhMOXjGbusQANQrW2G3KE/edit?gid=231054361#gid=231054361`
+- Current AI Eco Weekly Tracker: `https://docs.google.com/spreadsheets/d/1A4vHBp1Y-ZmSCEMM15fJwrvf1yv6jrLlCpMg2o5mxug/edit?gid=71307472#gid=71307472`
 - 2026 work diary: `https://docs.google.com/spreadsheets/d/1aZ4GTOWWdr9DnHY2S6jTMzJvd2r9vG1qi3KK6vaMdHU/edit?gid=1636212844#gid=1636212844`
 
 ## 注意
 
 Google Slides API 可能出现 `SERVICE_DISABLED`。遇到时用 Drive export fallback，不要反复重试同一个 API。
 
+2026-07-22 link audit：Google Drive connector 返回 `USER_NOT_LOGGED_IN`，以上 Google resources 的当前 link health 均为 `blocked/unknown`；不要把历史已读记录当成本次复核。

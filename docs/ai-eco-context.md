@@ -31,6 +31,20 @@ Rutong 的 AI role 更接近 AI strategy PMO + product delivery operator：
 - AI Eco PMO：roadmap、产品边界、workstream tracking、governance、dependency management。
 - BI 和 Diana：把业务问题转成数据工具、topic、SQL 和可解释指标。
 
+## PMO Operating Cadence
+
+- Rutong 负责 AI Eco PMO 的 operating cadence、跨模块依赖、验收与向上叙事；product owner 保留详细 implementation ownership。
+- Monday catch-up 默认检查：上周 output、本周 priority、blocker、待决策事项。
+- 判断 delivery 时先判 ownership，再判 status，避免把同一项能力在 Macro、Atlas、Echo 或其他 Domain 重复计算。
+
+## Tracker Governance
+
+- Current AI Eco Weekly Tracker 的 J 列是 editable `Current PMO Status`；Q:AL 是 Rutong 确认后的周历史，结构调整前必须按 stable ID 保护并恢复。
+- 证据优先级：Rutong 人工判断 > Macro live audit > GitLab > Domain PMO Tracker > DI 当前反馈。
+- `Progress / Coverage` 只按状态公式生成：待设计 0%、已占位 20%、Dev 40%、SIT 60%、UAT 80%、上线/已修复 100%。
+- source `Done`、GitLab commit、可见 UI shell 或单个 connector 成功都不能直接推导 UAT 或上线。
+- `上线/已修复` 是 Rutong 确认的 terminal state；保留黄色 review cells 和人工修正，不用低等级 evidence 静默覆盖。
+
 ## 当前产品地图
 
 | 模块 | 角色 |

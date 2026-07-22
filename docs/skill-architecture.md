@@ -25,6 +25,10 @@
 - `rutong-bi-sql/references/bi-sql-diana-playbook.md`
 - `rutong-working-style/references/collaboration-rules.md`
 
+## 2026-07-22 更新
+
+`rutong-ai-pmo` 只保留通用 PMO gate；AI Eco weekly tracker 的详细执行继续路由到 `ai-eco-weekly-update`，Macro 实机验收路由到 `macro-desktop-pmo-audit`。这样能沉淀本周稳定规则，同时避免把总入口 skill 写成 tracker 操作手册。
+
 ## 为什么不做一个大 Skill
 
 一个大 skill 会混在一起：

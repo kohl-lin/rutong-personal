@@ -4,6 +4,8 @@
 
 2026-07-06 已读取 sheet `2026` 的 preview。
 
+2026-07-22：Google Drive connector 未登录，未重新读取原 Sheet；以下 7 月中新增信号来自本周已完成的 AI Eco tracker / PMO 工作，原 Sheet 当前状态仍属 `blocked/unknown`。
+
 ## 7 月当前信号
 
 | 领域 | 状态 | 主题 | 备注 |
@@ -16,6 +18,13 @@
 | AI | WIP | Route / AIS switch | 通过 AIS switch 配置 Codex/Claude CLI 的模型。 |
 | AI | WIP | AI PMO | 2026-07-08 CNCB AI monthly。 |
 | BI | WIP | RTS qty bug | 需要 BI debugging path。 |
+
+## 7 月中新增稳定信号
+
+- AI Eco PMO 采用 Monday catch-up：上周 output、本周 priority、blocker 和待决策事项。
+- Current AI Eco Weekly Tracker 保持单页细项；J 是 editable current status，Q:AL 是 Rutong 确认后的周历史。
+- Tracker 判断先确认 ownership，再判断 status；source `Done`、GitLab commit 或可见 UI 不等于 UAT / 上线。
+- `上线/已修复` 仅由 Rutong 最终确认；黄色 review cells 和人工修正优先于低等级 evidence。
 
 ## 6 月已完成 / 活跃主题
 
