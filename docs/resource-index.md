@@ -4,9 +4,9 @@
 
 ## Link Audit
 
-- 2026-07-22：公开 `neat-freak` source 仍可访问，本地 Qu Yue PPTX skill zip 仍存在。
-- 2026-07-22：Google Drive connector 返回 `USER_NOT_LOGGED_IN`；下列 Google Docs / Sheets / Slides 的历史读取记录保留，但本次 link health 均标记为 `blocked/unknown`。
-- 2026-07-22：DataSuite、Diana 和 MLP 私有链接未在已认证环境中复核，标记为 `blocked/unknown`。
+- 2026-07-27：公开 `neat-freak` source 和 Dev product process training HTML 均返回 HTTP 200；本地 Qu Yue PPTX skill zip 仍存在。
+- 2026-07-27：下列 Google Docs / Sheets / Slides 在当前未登录请求中返回 HTTP 401；历史读取记录保留，但内容与权限状态均标记为 `blocked/unknown`。
+- 2026-07-27：DataSuite、Diana 和 MLP 私有入口返回 HTTP 200，只能证明入口可达；未在已认证业务会话中复核内容，继续标记为 `blocked/unknown`。
 
 ## 培训 Phase 1
 

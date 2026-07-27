@@ -16,4 +16,4 @@
 
 Google Slides API 可能出现 `SERVICE_DISABLED`。遇到时用 Drive export fallback，不要反复重试同一个 API。
 
-2026-07-22 link audit：Google Drive connector 返回 `USER_NOT_LOGGED_IN`，以上 Google resources 的当前 link health 均为 `blocked/unknown`；不要把历史已读记录当成本次复核。
+2026-07-27 link audit：当前未登录请求访问以上 Google resources 均返回 HTTP 401，link health 为 `blocked/unknown`；不要把历史已读记录当成本次复核。

@@ -22,6 +22,14 @@
 4. Blocker：权限、产品依赖、数据口径、adoption 阻力。
 5. Next ask：需要老板决策、资源、协调或认可什么。
 
+## Evidence-first Decision Review
+
+- 先列全部适用维度，再给综合建议；不要只输出总分。
+- 每个关键判断标记 evidence status：Confirmed、Partially Verified、Unconfirmed 或 Missing。
+- 同时展示 rationale、caveat、confidence 和 recommendation，让领导能复核判断链。
+- Weak evidence 降低 confidence 或限制推荐强度，不自动否决；核心 winning rationale 不能只依赖无法验证的 claim。
+- Awards / Incentives 的具体 rubric、权重和 verification 使用 `cncb-ai-award-judge`，不要复制到本 skill。
+
 ## Delivery Friendly 化
 
 把 AI 能力讲给用户时，避免“平台能力堆叠”。改成：
@@ -31,4 +39,3 @@
 - AI 现在帮他完成哪一步。
 - 用户需要怎么开始。
 - 如果失败，去哪里求助。
-

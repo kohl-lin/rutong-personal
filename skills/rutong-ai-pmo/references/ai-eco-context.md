@@ -35,6 +35,14 @@ Rutong 的角色接近 AI strategy PMO + product delivery operator：
 - source `Done`、GitLab commit、可见 UI 或单个 connector 成功不能直接推导 UAT / 上线；`上线/已修复` 仅由 Rutong 最终确认。
 - 保留黄色 review cells 和人工修正，不用低等级 evidence 静默覆盖。
 
+## Enterprise Knowledge Answer Governance
+
+- 团队内动态、历史和探索性问题以 permission-filtered RAG 为主；稳定高频 SOP、FAQ 和 onboarding 使用 owner-reviewed official answer。
+- 跨团队场景先命中 official answer，再用 permission-filtered RAG 补充动态证据和 long-tail synthesis。
+- Official answer 至少携带 source、Owner、version / update time、scope、permission 和 expiry。
+- 证据冲突时并列展示；证据不足时拒答或路由给 Owner；反复出现且完成 review 的问题可沉淀为 official answer。
+- `PREG` 不是统一标准缩写；使用前先确认具体含义。
+
 ## 工作原则
 
 - AI Eco 不要写成泛泛 AI transformation。

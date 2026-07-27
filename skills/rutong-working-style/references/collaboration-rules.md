@@ -25,4 +25,5 @@
 - deck copy 少写“不是 X，而是 Y”，直接说结论。
 - 不要混淆 GitHub、本地文件和 Google artifact 的 source of truth。
 - 权限、API、网络失败要直说。
-
+- Leadership review 展示全部适用维度、evidence status、rationale、caveat 和 recommendation，不只给黑盒分数。
+- 分析 SeaTalk 或聊天协作风格时，重新读取当前数据库或 export；引用姓名和可观察表达，稀疏样本标记 low confidence。

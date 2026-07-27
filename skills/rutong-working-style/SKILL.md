@@ -38,6 +38,8 @@ description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的
 - 不要假设 SQL dialect。
 - 不要让 deck 和 script 不同步。
 - 不要把 Rutong 自己的聊天问题当成老板布置的任务。
+- 评审或推荐要区分 confirmed、unconfirmed 和 missing evidence，保留 rationale、caveat 与明确结论。
+- SeaTalk / 聊天分析要读当前数据；旧样本或稀疏样本标记 low confidence。
 
 ## References
 
