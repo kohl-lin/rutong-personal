@@ -30,6 +30,18 @@
 - Weak evidence 降低 confidence 或限制推荐强度，不自动否决；核心 winning rationale 不能只依赖无法验证的 claim。
 - Awards / Incentives 的具体 rubric、权重和 verification 使用 `cncb-ai-award-judge`，不要复制到本 skill。
 
+## Audit / Tracker Status Wording
+
+- 报告 weekly tracker 或 PMO audit 时，明确区分 `preflight blocked`、已完成 source/domain/live audit、已完成 writeback / publication。
+- `preflight blocked` 只能说明本轮没进到完整审计或写回，不是“部分完成发布”。
+- PIC reviewed 的行刷新 O `Last Updated`；未闭环项在 L `Latest Evidence` 保留 PIC 的真实原因。
+
+## Impact / KPI Explanation
+
+- 解释 adoption / impact 时写清公式、source value 和 derived value。
+- `/`、`-`、blank 是 placeholder，不要当作 0 或有效分母。
+- 推导型 conversion rate、impact delta 或 coverage ratio 如果缺少源定义，要标注为 inference，不当成 authoritative source metric。
+
 ## Delivery Friendly 化
 
 把 AI 能力讲给用户时，避免“平台能力堆叠”。改成：

@@ -35,6 +35,18 @@
 - `rutong-ai-pmo` 增加 enterprise knowledge answer governance，并将 AI Awards / Incentives 评审路由到 `cncb-ai-award-judge`。
 - `rutong-ppt-html`、`rutong-script`、`rutong-bi-sql` 本周没有足够稳定的新行为信号，保持不变。
 
+## 2026-08-05 更新
+
+- `rutong-ai-pmo` 补充 tracker 完成态分层：`preflight blocked`、audit、writeback / publication 要分开写。
+- `rutong-bi-sql` 补充 impact / adoption 分析规则：解释公式，区分 source vs derived，并把 `/`、`-`、blank 视为 placeholder。
+- `rutong-ppt-html` 补充 chart runtime 约束：默认使用 SVG + bundled Node `sharp`，不要假设 Python plotting 可用。
+
+## 2026-08-10 更新
+
+- `rutong-working-style` 补充 outcome-based Skill clustering、implementation-silent naming 和日志证据边界。
+- `rutong-bi-sql` 补充 Diana / Data Studio hybrid routing、大结果集交付和 bridge authentication gate。
+- `rutong-ai-pmo`、`rutong-ppt-html`、`rutong-script` 没有新增必须进入 `SKILL.md` 的行为；新知识继续放在 docs / references。
+
 ## 为什么不做一个大 Skill
 
 一个大 skill 会混在一起：

@@ -18,6 +18,12 @@
 - 可见文字必须是 audience-facing，不要出现 prompt residue 或内部推理。
 - 如果 slide 需要隐藏但未来可能恢复，用 hidden / data-hidden 方式处理，不要删除。
 
+## 图表与导出约束
+
+- 需要新建 chart asset 时，不要默认 Python plotting libraries 存在。
+- 当前 Codex 运行时优先用 SVG + bundled Node `sharp` 产出 PNG，再检查尺寸和渲染结果。
+- 没有最终 render 检查时，不要把 chart 视为已交付。
+
 ## 常用 Archetype
 
 - `workflow bridge`：current workflow -> AI capability -> output。
@@ -26,4 +32,3 @@
 - `decision matrix`：owner、decision right、status、risk。
 - `roadmap`：horizon、milestone、owner、risk。
 - `screenshot evidence`：大截图 + 2-3 个 callout。
-

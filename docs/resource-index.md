@@ -7,6 +7,8 @@
 - 2026-07-27：公开 `neat-freak` source 和 Dev product process training HTML 均返回 HTTP 200；本地 Qu Yue PPTX skill zip 仍存在。
 - 2026-07-27：下列 Google Docs / Sheets / Slides 在当前未登录请求中返回 HTTP 401；历史读取记录保留，但内容与权限状态均标记为 `blocked/unknown`。
 - 2026-07-27：DataSuite、Diana 和 MLP 私有入口返回 HTTP 200，只能证明入口可达；未在已认证业务会话中复核内容，继续标记为 `blocked/unknown`。
+- 2026-08-05：当前运行环境 DNS / 外网解析失败，`github.com`、`docs.google.com` 和 GitHub Pages 均无法重新探活；本次只能沿用上次 link audit 结果，状态记为 `blocked/unknown`，不把旧记录当成当次复核。
+- 2026-08-10：公开 `neat-freak` source 和 Dev product process training HTML 重新探活均返回 HTTP 200；Google private resource sample 仍返回 HTTP 401；DataSuite 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
 
 ## 培训 Phase 1
 

@@ -41,9 +41,11 @@ Rutong 的 AI role 更接近 AI strategy PMO + product delivery operator：
 
 - Current AI Eco Weekly Tracker 的 J 列是 editable `Current PMO Status`；Q:AL 是 Rutong 确认后的周历史，结构调整前必须按 stable ID 保护并恢复。
 - 证据优先级：Rutong 人工判断 > Macro live audit > GitLab > Domain PMO Tracker > DI 当前反馈。
+- 报告进度时要区分 `preflight blocked`、完成 source/domain/live audit、完成 writeback / publication；不要把前序检查写成最终完成。
 - `Progress / Coverage` 只按状态公式生成：待设计 0%、已占位 20%、Dev 40%、SIT 60%、UAT 80%、上线/已修复 100%。
 - source `Done`、GitLab commit、可见 UI shell 或单个 connector 成功都不能直接推导 UAT 或上线。
 - `上线/已修复` 是 Rutong 确认的 terminal state；保留黄色 review cells 和人工修正，不用低等级 evidence 静默覆盖。
+- PIC reviewed 的行要刷新 O `Last Updated`；若仍未完成，在 L `Latest Evidence` 保留 PIC 的真实 blocker / reason。
 
 ## Enterprise Knowledge Answer Governance
 
@@ -74,3 +76,5 @@ Rutong 的 AI role 更接近 AI strategy PMO + product delivery operator：
 - 区分 personal knowledge 和 enterprise official knowledge。
 - 先展示 workflow proof，再讲 operating model。
 - 面向老板的页面要说清楚：变了什么、创造了什么价值、还有什么风险、需要什么决策或支持。
+- 数据工作采用 hybrid routing：固定 SQL、模板化或 scheduled extraction 走 Data Studio；探索性语义问题、Topic / Skill interaction 和 multi-turn clarification 走 Diana；SOP、定义和规则走 Knowledge / Echo；下游 Sheet、deck、report 和 writeback 由 Macro 的 artifact / workspace layer 承接。
+- 超过约 2k rows 的结果优先交付 materialized table、Data Studio Output、CSV 或 Data Services；LLM 只接收摘要和抽样 QA，避免把大结果集塞进对话。

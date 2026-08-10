@@ -28,6 +28,16 @@
 - Enterprise knowledge 采用 owner-reviewed official answer + permission-filtered RAG：稳定高频答案受 Owner、版本、权限和 expiry 管理，动态与 long-tail 问题走检索证据。
 - AI Awards / Incentives 采用 evidence-first review；weak evidence 降低 confidence 或限制推荐强度，不自动否决，同时保留全部评分维度、依据和 caveat。
 
+## 8 月新增稳定信号
+
+- AI Eco weekly update 要明确区分 `preflight blocked`、已完成 source/domain/live audit、已完成 writeback / publication，不能把前一步写成后一步成功。
+- PIC reviewed 的 tracker 行需要刷新 O `Last Updated`；未完成项在 L `Latest Evidence` 保留 PIC 的真实原因，不要被模板化表述冲掉。
+- impact / adoption 分析要解释公式、区分 source value 和 derived value，并把 `/`、`-`、blank 当 placeholder，而不是有效数值。
+- 需要 chart asset 时，不要默认 Python plotting 可用；当前 Codex 运行时优先用 SVG + bundled Node `sharp`，并检查最终 PNG。
+- Diana / Data Studio 采用 hybrid routing：固定 SQL 与 scheduled extraction 走 Data Studio；探索性语义、Topic / Skill 和 multi-turn 分析走 Diana；规则定义走 Knowledge / Echo；artifact writeback 留在 Macro 上层。
+- Skill inventory 按相同目标、输入、步骤/规则、输出与验收标准聚类；用户侧 Skill entry 保持 implementation-silent，执行 backend 可以替换。
+- usage log 的 empty answer 是日志完整性指标；没有 observation-level evidence 时不能当成产品失败率。
+
 ## 6 月已完成 / 活跃主题
 
 - AI Knowledge plan：Knowledge、Echo、Atlas、AI Eco PMO tracker、enterprise knowledge governance、Q2 update。

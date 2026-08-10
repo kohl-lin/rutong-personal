@@ -38,6 +38,8 @@ Rutong 把 Codex 当成执行伙伴，而不是 brainstorming assistant。默认
 - 不要把 Rutong 自己在 SeaTalk 里的提问误判成老板布置的任务。
 - 分析 SeaTalk 或聊天协作风格时，重新读取当前数据库或 export；引用姓名和可观察表达，旧样本或稀疏样本标记为 low confidence。
 - Leadership review 不能只给黑盒分数；展示全部适用维度、evidence status、rationale、caveat 和 recommendation。
+- 整理 usage / Ops Skill inventory 时，按相同工作目标、相似输入、相似步骤与规则、同类输出、相似验收标准聚类；用户侧 Skill 名称不要暴露可替换的 backend implementation。
+- usage log 的空 answer 首先是日志完整性信号；没有 observation-level evidence 时，不要直接写成产品失败率。
 
 ## 语气
 

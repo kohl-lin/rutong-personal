@@ -27,3 +27,5 @@
 - 权限、API、网络失败要直说。
 - Leadership review 展示全部适用维度、evidence status、rationale、caveat 和 recommendation，不只给黑盒分数。
 - 分析 SeaTalk 或聊天协作风格时，重新读取当前数据库或 export；引用姓名和可观察表达，稀疏样本标记 low confidence。
+- 整理 usage / Ops Skill inventory 时，按相同工作目标、相似输入、相似步骤与规则、同类输出、相似验收标准聚类；用户侧名称保持 implementation-silent，backend routing 记录在内部视图。
+- usage log 的空 `answer` 是日志完整性信号；没有 observation-level evidence 时，不要直接归因为产品失败。
