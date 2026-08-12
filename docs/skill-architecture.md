@@ -47,6 +47,13 @@
 - `rutong-bi-sql` 补充 Diana / Data Studio hybrid routing、大结果集交付和 bridge authentication gate。
 - `rutong-ai-pmo`、`rutong-ppt-html`、`rutong-script` 没有新增必须进入 `SKILL.md` 的行为；新知识继续放在 docs / references。
 
+## 2026-08-12 更新
+
+- `rutong-ai-pmo` 从固定加载两份 reference 改为按任务加载，减少无关 context。
+- 新增 `references/judgment-principles.md`，把重复出现的 PMO 修正提炼为带 tradeoff、边界和反偏见检查的判断原则。
+- `SKILL.md` 新增结果导向的完成标准，重点验证 evidence traceability、delivery / usage / impact 分层、confirmation gate 和 writeback readback。
+- 当前只升级本地 repo 版本；待 Rutong 确认后再同步到 `~/.codex/skills/` 和 GitHub。
+
 ## 为什么不做一个大 Skill
 
 一个大 skill 会混在一起：
