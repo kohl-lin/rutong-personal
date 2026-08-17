@@ -9,12 +9,15 @@
 5. Risk：依赖、权限、数据、adoption 阻力。
 6. Ask：需要老板支持什么。
 
+Evidence label 要校准：分别写 `Observed delivery`、`Observed usage`、`Live mechanism proof` 和 `Quantified impact`。Memory call、trace、入口覆盖等 activity evidence 不能直接写成 cache-hit rate、cost saving 或业务 impact。
+
 ## 推荐页面
 
 - `Executive update`：上方 2-3 条 highlights，下方证据图 / 表 / roadmap。
 - `Product map`：Macro / Knowledge / Atlas / Skill Factory / Sentinel / Diana 的关系。
 - `Adoption funnel`：awareness -> first use -> repeat use -> value proof。
 - `Workflow proof`：真实工作流前后对比。
+- `Executive mechanism flow`：business intent -> routing / policy -> execution surface -> readback / artifact proof，控制在 3-4 步。
 - `Roadmap`：Q2 / Q3 / Q4 / 2027 H1，按 product/workstream 拆。
 
 ## 避免
@@ -23,4 +26,3 @@
 - 五个等权卡片堆满字。
 - 用外部 framework 直接推出组织方案。
 - 把 speaker notes 放进页面。
-

@@ -8,6 +8,7 @@
 - 标题 answer-first，页面只承载一个主结论。
 - 少写“不是 X，而是 Y”；直接写“X 应该服务 Y”或“当前结论是 X”。
 - 视觉强调要帮助阅读，不要做 AI 感装饰。
+- 用户提供 screenshot / template 后，优先跟随其视觉系统；不要继续维护风格不一致的早期方案。
 
 ## 页面质量闸门
 
@@ -23,6 +24,7 @@
 - 需要新建 chart asset 时，不要默认 Python plotting libraries 存在。
 - 当前 Codex 运行时优先用 SVG + bundled Node `sharp` 产出 PNG，再检查尺寸和渲染结果。
 - 没有最终 render 检查时，不要把 chart 视为已交付。
+- Google Slides 写入要基于 fresh revision，写后 readback，并检查 rendered thumbnail；只有 API success 或本地 HTML 不算 native slide 完成。
 
 ## 常用 Archetype
 
@@ -32,3 +34,4 @@
 - `decision matrix`：owner、decision right、status、risk。
 - `roadmap`：horizon、milestone、owner、risk。
 - `screenshot evidence`：大截图 + 2-3 个 callout。
+- `executive flow`：把大型工程图压缩为 3-4 步用户结果链；原始技术图留在 appendix / source，不直接塞进老板页面。

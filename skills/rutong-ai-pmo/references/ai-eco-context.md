@@ -37,6 +37,13 @@ Rutong 的角色接近 AI strategy PMO + product delivery operator：
 - 保留黄色 review cells 和人工修正，不用低等级 evidence 静默覆盖。
 - PIC reviewed 的行刷新 O `Last Updated`；若仍未完成，在 L `Latest Evidence` 保留 PIC 的真实 blocker / reason。
 
+## Workspace Self-check Governance
+
+- 每个 candidate signal 独立判定；metadata-only change、入口可达或模糊 entity mapping 只能作为线索。
+- evidence、scope、authority 或 entity mapping 不足时保留 `review_pending`，不要为了清空队列强判 issue / no issue。
+- 使用 stable issue key 和 append-only history；更新状态时保留 Rutong 的人工决定列，不覆盖或重排。
+- 外部 mutation 只执行 Rutong 明确批准且重新验证过的 `sources/` 修复；dirty human checkout 保持不动，改用 task-owned clone。
+
 ## Enterprise Knowledge Answer Governance
 
 - 团队内动态、历史和探索性问题以 permission-filtered RAG 为主；稳定高频 SOP、FAQ 和 onboarding 使用 owner-reviewed official answer。

@@ -52,7 +52,13 @@
 - `rutong-ai-pmo` 从固定加载两份 reference 改为按任务加载，减少无关 context。
 - 新增 `references/judgment-principles.md`，把重复出现的 PMO 修正提炼为带 tradeoff、边界和反偏见检查的判断原则。
 - `SKILL.md` 新增结果导向的完成标准，重点验证 evidence traceability、delivery / usage / impact 分层、confirmation gate 和 writeback readback。
-- 当前只升级本地 repo 版本；待 Rutong 确认后再同步到 `~/.codex/skills/` 和 GitHub。
+- 已完成 fresh-context forward test、repo/global 同步和双份验证，并发布到 GitHub commit `a2a59cb`。
+
+## 2026-08-17 更新
+
+- `rutong-working-style` references 补充 personal context 的问题触发条件和 private asset boundary，不因外部 framework 自动扩建基础设施。
+- `rutong-ai-pmo` 增加 AI Eco workspace maintenance 路由；详细的 candidate adjudication、stable key 和人工决定保护规则留在 self-contained reference。
+- `rutong-ppt-html` references 补充 boss-facing evidence 分层、模板跟随、流程图简化和 Google Slides revision/readback/thumbnail 验证。
 
 ## 为什么不做一个大 Skill
 

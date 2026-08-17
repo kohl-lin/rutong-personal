@@ -37,6 +37,9 @@
 - Diana / Data Studio 采用 hybrid routing：固定 SQL 与 scheduled extraction 走 Data Studio；探索性语义、Topic / Skill 和 multi-turn 分析走 Diana；规则定义走 Knowledge / Echo；artifact writeback 留在 Macro 上层。
 - Skill inventory 按相同目标、输入、步骤/规则、输出与验收标准聚类；用户侧 Skill entry 保持 implementation-silent，执行 backend 可以替换。
 - usage log 的 empty answer 是日志完整性指标；没有 observation-level evidence 时不能当成产品失败率。
+- Personal context infrastructure 只在真实任务出现 retrieval、routing、comprehension 或 validation failure 时升级；个人资产默认保持 private，不为假设中的团队共享增加双份维护或自动同步。
+- AI Eco workspace 自检要逐条独立判断 candidate signal；证据、scope、authority 或 entity mapping 不足时保留 `review_pending`，并保护 stable issue key 和 Rutong 人工决定。
+- Boss-facing deck 区分 observed delivery、observed usage 和 quantified impact；工程流程图压缩为 3-4 步决策链，Google Slides 写入后要做 fresh revision readback 和 rendered-thumbnail verification。
 
 ## 6 月已完成 / 活跃主题
 

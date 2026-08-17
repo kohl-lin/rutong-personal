@@ -9,6 +9,7 @@
 - 2026-07-27：DataSuite、Diana 和 MLP 私有入口返回 HTTP 200，只能证明入口可达；未在已认证业务会话中复核内容，继续标记为 `blocked/unknown`。
 - 2026-08-05：当前运行环境 DNS / 外网解析失败，`github.com`、`docs.google.com` 和 GitHub Pages 均无法重新探活；本次只能沿用上次 link audit 结果，状态记为 `blocked/unknown`，不把旧记录当成当次复核。
 - 2026-08-10：公开 `neat-freak` source 和 Dev product process training HTML 重新探活均返回 HTTP 200；Google private resource sample 仍返回 HTTP 401；DataSuite 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
+- 2026-08-17：公开 `neat-freak`、training HTML、Context Infrastructure article 和 reference implementation 均返回 HTTP 200；Google private resources 返回 HTTP 401；GitLab demo 和 Diana 入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
 
 ## 培训 Phase 1
 
@@ -35,6 +36,15 @@
 |---|---|---|
 | Qu Yue PPTX deck skill zip | `/Users/rutong.lin01/Downloads/quyue-pptx-deck-share-20260703.zip` | 2026-07-06 已检查。可借鉴结构：精简 `SKILL.md`、references、script、template asset、quality gates。 |
 | Neat-freak skill source | https://github.com/KKKKhazix/khazix-skills/tree/main/neat-freak | 2026-07-06 已检查。适合借鉴定期 hygiene、resource cleanup、docs-memory 分层；不宜原样照搬。 |
+
+## Context Infrastructure 和 Workspace Governance
+
+| 资源 | 链接 | 当前记录 |
+|---|---|---|
+| Context Infrastructure article | https://www.superlinear.academy/c/ai-resources/context-infrastructure | 2026-08-12 已读。可借鉴 conditional loading 和 human-confirmed learning；不据此推定当前存在 context 问题。 |
+| Context Infrastructure reference implementation | https://github.com/grapeot/context-infrastructure | 2026-08-12 已检查。作为分层 context / rules / skill 的参考实现，不直接复制其完整架构。 |
+| BI Workspace workshop deck | https://docs.google.com/presentation/d/1Ak_D8fCYpdR-2U_U2vlwZaxVBDBADVfodOZtZrqEh5w/edit?slide=id.g3f6cb820b7a_0_346 | 2026-08-12 已读；2026-08-17 未登录请求返回 HTTP 401。个人资产默认保持 private，不自动引入 Team Workspace 同步。 |
+| BI Workspace demo repo | https://gitlab-saas.shopeemobile.com/cncb-ai-workspace/cncb-bi-ai-workspace-demo | 2026-08-12 未通过登录验证；2026-08-17 入口 HTTP 200 只证明可达，实际实现继续标记 `blocked/unknown`。 |
 
 ## 工作日记 Preview 中出现的其他链接
 
