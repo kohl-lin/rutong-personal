@@ -8,7 +8,7 @@
 |---|---|
 | `rutong-working-style` | 总入口、澄清问题、本地优先工作流、质量闸门、反复修正点 |
 | `rutong-ai-pmo` | AI PMO、AI Eco、user adoption、delivery planning、向上汇报 |
-| `tactful-workplace-comms` | 通用的催办、追责、任务分配、资源请求、强制动作和敏感职场沟通 |
+| `rutong-tactful-comms` | 通用、可分享的催办、追责、任务分配、资源请求、强制动作和敏感职场沟通 |
 | `rutong-ppt-html` | PPT 和 HTML deck 生产、layout、visual QA、source sync |
 | `rutong-script` | Speaker notes、培训讲稿、facilitation、受众适配 |
 | `rutong-bi-sql` | SQL、Diana、BI analysis、LFF Ops、CNLS、指标诊断 |
@@ -63,7 +63,7 @@
 
 ## 2026-08-20 更新
 
-- 新增 `tactful-workplace-comms`，专门把催办、追责、任务分配、资源请求、强制动作和限制通知改写成尊重、直接且可执行的职场沟通。该 skill 可独立分享，不包含个人、AI PMO、内部产品或组织特定信息。
+- 新增 `rutong-tactful-comms`，专门把催办、追责、任务分配、资源请求、强制动作和限制通知改写成尊重、直接且可执行的职场沟通。名称保留 Rutong 标识，但内容可独立分享，不包含个人、AI PMO、内部产品或组织特定信息。
 - 委婉表达只软化人际摩擦，不弱化 ownership、deadline、事实和 mandatory action；普通标题、宣传文案和纯语法润色不触发。
 - `rutong-working-style` 增加对应路由，具体模板与案例保存在 self-contained reference。
 
