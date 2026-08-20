@@ -2,12 +2,13 @@
 
 ## 推荐结构
 
-使用 1 个总入口 skill + 4 个聚焦执行 skill。
+使用 1 个总入口 skill + 5 个聚焦执行 skill。
 
 | Skill | 用途 |
 |---|---|
 | `rutong-working-style` | 总入口、澄清问题、本地优先工作流、质量闸门、反复修正点 |
 | `rutong-ai-pmo` | AI PMO、AI Eco、user adoption、delivery planning、向上汇报 |
+| `rutong-tactful-comms` | 催办、追责、任务分配、资源请求、强制动作和敏感职场沟通 |
 | `rutong-ppt-html` | PPT 和 HTML deck 生产、layout、visual QA、source sync |
 | `rutong-script` | Speaker notes、培训讲稿、facilitation、受众适配 |
 | `rutong-bi-sql` | SQL、Diana、BI analysis、LFF Ops、CNLS、指标诊断 |
@@ -59,6 +60,12 @@
 - `rutong-working-style` references 补充 personal context 的问题触发条件和 private asset boundary，不因外部 framework 自动扩建基础设施。
 - `rutong-ai-pmo` 增加 AI Eco workspace maintenance 路由；详细的 candidate adjudication、stable key 和人工决定保护规则留在 self-contained reference。
 - `rutong-ppt-html` references 补充 boss-facing evidence 分层、模板跟随、流程图简化和 Google Slides revision/readback/thumbnail 验证。
+
+## 2026-08-20 更新
+
+- 新增 `rutong-tactful-comms`，专门把催办、追责、任务分配、资源请求、强制动作和限制通知改写成温和但不卑微、直接但不指责的职场沟通。
+- 委婉表达只软化人际摩擦，不弱化 ownership、deadline、事实和 mandatory action；普通标题、宣传文案和纯语法润色不触发。
+- `rutong-working-style` 增加对应路由，具体模板与案例保存在 self-contained reference。
 
 ## 为什么不做一个大 Skill
 

@@ -25,6 +25,7 @@ description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的
 ## 路由到聚焦 Skill
 
 - AI PMO、AI Eco、adoption、roadmap、ROI、向上汇报：用 `rutong-ai-pmo`。
+- 催办、追责、任务分配、资源请求、强制动作或其他敏感职场沟通：用 `rutong-tactful-comms`。
 - PPT、HTML deck、layout、slide polish、visual QA：用 `rutong-ppt-html`。
 - Speaker notes、培训讲稿、受众适配、现场互动提示：用 `rutong-script`。
 - SQL、Diana、BI data analysis、LFF Ops、CNLS、指标 debug：用 `rutong-bi-sql`。
