@@ -67,6 +67,10 @@
 - 委婉表达只软化人际摩擦，不弱化 ownership、deadline、事实和 mandatory action；普通标题、宣传文案和纯语法润色不触发。
 - `rutong-working-style` 增加对应路由，具体模板与案例保存在 self-contained reference。
 
+## 2026-08-24 更新
+
+- `rutong-ai-pmo` 补充业务文案与推广话术的结构规则：具体成果 → 趋势/需求 → 请求动作；详细反例沉淀在 `docs/working-style.md` 和 `references/adoption-reporting-playbook.md`。
+
 ## 为什么不做一个大 Skill
 
 一个大 skill 会混在一起：

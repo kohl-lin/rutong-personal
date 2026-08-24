@@ -41,6 +41,7 @@ AI Eco 是 CNCB AI 生态体系搭建项目。它通过渐进式 delivery 提升
 - 在 AI Eco Weekly Tracker 中，把 `上线/已修复` 保留为 Rutong 最终确认的 terminal state。
 - Enterprise knowledge 采用 owner-reviewed official answer + permission-filtered retrieval；使用 `PREG` 前先确认具体含义。
 - 避免泛泛 AI slogans。
+- 写业务文案、appreciation 或推广话术时，先肯定具体成果，再点出趋势/需求，最后给请求动作；避免空泛 `持续落地`、重复 `Newsletter` 和讨好式赠礼措辞，标题推荐标注为推荐。
 
 ## 完成标准
 
