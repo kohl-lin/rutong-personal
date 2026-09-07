@@ -24,3 +24,10 @@
 - leadtime 表是否因为 grain 不齐导致 duplicate rows。
 - output summary table 是否和 corrected forecast output 对齐。
 
+## FBS Churn / Cohort 复现
+
+- 先确认 cohort grain、base month 和 weighting metric，再解释 churn 或 FBS Type 分布。
+- `Current` 是相对每个 cohort 的当前状态，不能当成同一个 calendar month 的静态标签。
+- 聚合 cohort 总量前去重重复的 M0 / base rows，避免 base seller 或 MP ADO 被重复计入分母。
+- `months_since_cohort` 用于对齐不同起始月份的 cohort 生命周期；calendar month 与 cohort age 需要分开分析。
+- 聚合后的 `Raw_v2` 可以支持规则化 churn decomposition；需要 seller-level 历史标签或迁移路径时，必须取得 seller-grain source。

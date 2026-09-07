@@ -1,0 +1,458 @@
+{
+  "slug": "shopee-internal-report",
+  "name": "Shopee Internal Report",
+  "tagline": "Official-feeling internal deck for data-led business reviews and topic-based analysis readouts.",
+  "mood": [
+    "structured",
+    "analytical",
+    "internal",
+    "operational",
+    "executive"
+  ],
+  "occasion": [
+    "weekly business review",
+    "monthly business review",
+    "quarterly business review",
+    "product analysis",
+    "internal strategy readout",
+    "decision proposal",
+    "operations project update"
+  ],
+  "tone": [
+    "clear",
+    "data-led",
+    "direct",
+    "company-standard",
+    "action-oriented"
+  ],
+  "formality": "high",
+  "density": "high",
+  "scheme": "light",
+  "best_for": "Internal Shopee decks that need either data-plus-conclusion pages or topic-analysis / decision-proposal pages under one consistent operating template.",
+  "avoid_for": "Decks outside internal operating, reporting, strategy, diagnostic, or decision-making use cases.",
+  "layout_modules": [
+    "internal cover",
+    "agenda",
+    "executive summary",
+    "trend analysis",
+    "data highlights",
+    "dense matrix",
+    "multi-table benchmark",
+    "phase breakdown improvement plan",
+    "decision proposal",
+    "ending"
+  ],
+  "manual_editing": {
+    "enabled": true,
+    "method": "contenteditable",
+    "runtime_features": [
+      "click-to-edit text",
+      "localStorage autosave",
+      "export edited HTML",
+      "reset local edits",
+      "plain-text paste"
+    ]
+  },
+  "delivery_packaging": {
+    "self_contained": true,
+    "html_entry": "index.html",
+    "single_file_entry": "index.single.html",
+    "default_delivery_mode": "both",
+    "required_runtime": "deck-stage.js",
+    "review_runtime": "review-annotations.js",
+    "required_assets": [
+      "assets/brand/logos/shopee-logomark-no-text-square.png"
+    ],
+    "path_rules": [
+      "Run node scripts/shopee-template/package-deck.mjs outputs/<deck-slug>/index.html --single-file after writing or updating generated HTML.",
+      "Generated deck HTML must reference ./deck-stage.js.",
+      "Generated deck HTML must reference ./review-annotations.js for browser review comments.",
+      "Generated deck HTML must reference ./assets/brand/logos/shopee-logomark-no-text-square.png for the Shopee mark.",
+      "All deck-specific images, screenshots, and brand assets must live inside the output folder under ./assets/.",
+      "Single-file share copies inline deck-stage.js, review-annotations.js, and the Shopee mark."
+    ],
+    "portable_deliverable": "Default to both: keep the folder package as the working copy and send index.single.html as the reviewer share copy."
+  },
+  "design_system": {
+    "reference": "references/shopee-template/shopee-slide-design-system.md",
+    "header_style": "standard-shopee-content-header",
+    "typography_scale": {
+      "cover_title": "58-72px",
+      "content_headline": "28-36px",
+      "subhead": "16-22px",
+      "body": "12-16px",
+      "caption": "10-12px",
+      "dense_text": "8.5-11.5px"
+    },
+    "color_tokens": [
+      "shopee-orange",
+      "shopee-orange-hot",
+      "shopee-ink",
+      "shopee-muted",
+      "shopee-line",
+      "shopee-surface",
+      "shopee-green",
+      "shopee-red",
+      "shopee-red-bright",
+      "shopee-yellow",
+      "shopee-blue",
+      "shopee-blue-bright",
+      "shopee-navy",
+      "shopee-cyan"
+    ],
+    "required_components": [
+      "no-text Shopee mark",
+      "standard content header",
+      "context summary bar",
+      "dense tables",
+      "watch panels",
+      "decision panels",
+      "analysis elements",
+      "footer"
+    ]
+  },
+  "visual_element_library": {
+    "reference": "references/shopee-template/visual-element-library.md",
+    "css_reference": "assets/shopee-template/shared/shopee-analysis-elements.css",
+    "source_inspiration": "Shopee internal samples plus red/blue analytical PPT patterns; raw source decks are not required at runtime.",
+    "approved_elements": [
+      "segmented-pyramid",
+      "chevron-chain",
+      "risk-severity-stack",
+      "metric-card-row",
+      "before-after-bridge",
+      "benchmark-quadrant",
+      "status-dot-table",
+      "driver-tree",
+      "timeline-phase-band",
+      "ranked-bar-list",
+      "callout-answer-card"
+    ],
+    "semantic_color_rules": [
+      "Shopee Orange = brand/action/emphasis",
+      "Navy = foundation/base/strategic pillar",
+      "Red = critical risk or blocked status",
+      "Yellow = watchout, partial confidence, pending status",
+      "Blue = system, product, or automation capability",
+      "Green/Cyan = healthy, achieved, or improving status"
+    ],
+    "selection_rule": "Choose elements by evidence shape after the slide-mapping-plan; do not copy source PPT page shapes unless their logic strengthens the business answer."
+  },
+  "shared_visual_assets": {
+    "catalog": "references/shopee-template/internal-visual-assets.md",
+    "manifest": "assets/shopee-template/reference-decks/shopee-monthly-reference/asset.json",
+    "source": "assets/shopee-template/reference-decks/shopee-monthly-reference/reference.pptx",
+    "contact_sheet": "assets/shopee-template/reference-decks/shopee-monthly-reference/contact-sheet.png",
+    "use": "Select one or two style anchors by content shape, then recreate the approved story with native HTML or PPTX elements."
+  },
+  "input_modes": [
+    {
+      "mode": "brief_first",
+      "use_when": "The user gives a natural-language internal report goal, rough bullets, partial data, or asks to generate the report structure from scratch.",
+      "output": "Infer the report spine, write business-answer hypotheses, mark missing data as assumptions or risks, then build the slide-mapping-plan."
+    },
+    {
+      "mode": "source_synthesis",
+      "use_when": "The user provides PPT, screenshots, pasted tables, or existing internal material and wants a smarter report distilled from it.",
+      "output": "Extract evidence, logic, owners, risks, and action asks; merge, split, or drop source pages based on business value before building the slide-mapping-plan."
+    }
+  ],
+  "selection_playbook": {
+    "framing_pages": [],
+    "data_pages": [
+      {
+        "layout_id": "internal.executive-summary",
+        "use_when": "Need one topline table plus a short conclusion summary for leadership first-look pages."
+      },
+      {
+        "layout_id": "internal.trend-analysis",
+        "use_when": "Need one scope tracked across multiple periods, with trend commentary and watch points."
+      },
+      {
+        "layout_id": "internal.data-highlights",
+        "use_when": "Need a dense grouped table plus numbered findings across multiple markets, cohorts, or segments."
+      },
+      {
+        "layout_id": "internal.dense-matrix",
+        "use_when": "Need many months or many markets in one rolling matrix, especially annual tracking."
+      },
+      {
+        "layout_id": "internal.multi-table-benchmark",
+        "use_when": "Need two related tables on one page, usually topline status on top and benchmark/ranking below."
+      },
+      {
+        "layout_id": "internal.phase-improvement-plan",
+        "use_when": "Need a breakdown table plus action cards, especially for lead-time, funnel-step, or process-stage optimization."
+      }
+    ],
+    "topic_pages": [
+      {
+        "layout_id": "internal.context-split",
+        "use_when": "Need a decision page with background, constraints, options, and recommendation."
+      }
+    ]
+  },
+  "pre_generation_plan": {
+    "required": true,
+    "reference": "references/shopee-template/slide-mapping-plan.md",
+    "user_confirmation_gate": "Post the user-facing proposal plan (core conclusion, narrative line, one line per page) in chat and wait for approval before writing any deck HTML. Only skip if the user explicitly opts out.",
+    "input_mode": "natural-language brief first; PPT, notes, screenshots, and pasted data are supporting source material rather than conversion targets",
+    "intake_questions": [
+      "What is the core conclusion the audience should remember?",
+      "Who is the audience, and what decision, alignment, or feedback do they need to provide?",
+      "Which narrative structure should the page or deck follow?",
+      "What does each screenshot, chart, or table represent, and what is the desired display order?",
+      "What should not appear, such as asks, CTAs, sensitive details, unfinished metrics, or extra next steps?"
+    ],
+    "build_plan_fields": [
+      "slide_no",
+      "source_ref",
+      "business_answer",
+      "body_composition",
+      "layout_ref",
+      "evidence",
+      "split_decision",
+      "assumptions_risks"
+    ],
+    "quality_rules": [
+      "Every content slide needs a business-answer headline or hypothesis.",
+      "Body composition follows content shape; layout fragments are reference examples, not a mandatory menu.",
+      "Screenshots and charts are placed by asset role and business narrative order, not upload order.",
+      "Do not include asks, CTAs, or next-step panels unless the user requested them or the audience needs to act.",
+      "Missing information is recorded as assumptions or risks before HTML is filled."
+    ]
+  },
+  "large_table_split_policy": {
+    "enabled": true,
+    "applies_to_layouts": [
+      "internal.data-highlights",
+      "internal.dense-matrix",
+      "internal.multi-table-benchmark",
+      "internal.phase-improvement-plan"
+    ],
+    "must_split_when": {
+      "columns_gt": 16,
+      "rows_gt": 18,
+      "density_gte": 190,
+      "estimated_font_below_px": 8
+    },
+    "prefer_split_by": [
+      "business section or metric family",
+      "market group",
+      "quarter or month range",
+      "topline versus backup detail",
+      "appendix detail"
+    ],
+    "split_workflow": [
+      "Estimate normalized row count, column count, and density before filling the HTML table.",
+      "If any must_split_when threshold is met, duplicate the closest matching layout instead of shrinking below legibility.",
+      "Keep the same visual system and repeat the header, source note, and table definitions on each continuation slide.",
+      "Give every split slide its own business-answer headline and right-side finding/watch panel where the layout supports it.",
+      "Update agenda labels, data-sequence, footer page numbers, slide_count, and index.json after adding split pages."
+    ],
+    "continuation_label_format": "Part X/Y",
+    "do_not": [
+      "Do not rely on browser auto-fit as the only solution for oversized source data.",
+      "Do not split purely by source page number when a business grouping is available.",
+      "Do not reduce dense table text below 8px."
+    ]
+  },
+  "layouts": [
+    {
+      "layout_id": "internal.cover",
+      "slide_number": 1,
+      "best_for": "Internal report cover with topic, team, and reporting period.",
+      "signals": [
+        "title",
+        "period",
+        "team",
+        "confidential"
+      ],
+      "required_slots": [
+        "title",
+        "team",
+        "date",
+        "confidentiality"
+      ],
+      "density": "medium"
+    },
+    {
+      "layout_id": "internal.agenda",
+      "slide_number": 2,
+      "best_for": "Agenda page introducing the chosen reporting scenario and section flow.",
+      "signals": [
+        "agenda",
+        "overview",
+        "sections",
+        "flow"
+      ],
+      "required_slots": [
+        "headline",
+        "agenda_items"
+      ],
+      "density": "medium"
+    },
+    {
+      "layout_id": "internal.executive-summary",
+      "slide_number": 3,
+      "best_for": "Topline data table plus short conclusion summary for leadership readouts.",
+      "signals": [
+        "topline",
+        "summary",
+        "conclusion",
+        "target",
+        "market"
+      ],
+      "required_slots": [
+        "headline",
+        "context_summary",
+        "table",
+        "source"
+      ],
+      "density": "high"
+    },
+    {
+      "layout_id": "internal.trend-analysis",
+      "slide_number": 4,
+      "best_for": "Trend review page with one multi-period table and watch/action commentary.",
+      "signals": [
+        "trend",
+        "wow",
+        "mom",
+        "weekly",
+        "watch"
+      ],
+      "required_slots": [
+        "headline",
+        "trend_table",
+        "watch_panel"
+      ],
+      "density": "high"
+    },
+    {
+      "layout_id": "internal.data-highlights",
+      "slide_number": 5,
+      "best_for": "Cross-market data detail page with numbered findings and supporting evidence.",
+      "signals": [
+        "data highlights",
+        "cross market",
+        "findings",
+        "evidence",
+        "breakdown"
+      ],
+      "required_slots": [
+        "headline",
+        "table",
+        "findings"
+      ],
+      "density": "very-high"
+    },
+    {
+      "layout_id": "internal.context-split",
+      "slide_number": 6,
+      "best_for": "Decision proposal page with background, option comparison, and recommended path.",
+      "signals": [
+        "decision",
+        "proposal",
+        "background",
+        "constraints",
+        "recommendation"
+      ],
+      "required_slots": [
+        "headline",
+        "background",
+        "option_a",
+        "option_b"
+      ],
+      "density": "high"
+    },
+    {
+      "layout_id": "internal.dense-matrix",
+      "slide_number": 7,
+      "best_for": "Rolling dense matrix for annual plan tracking across markets and months.",
+      "signals": [
+        "dense matrix",
+        "annual plan",
+        "monthly",
+        "market",
+        "tracking"
+      ],
+      "required_slots": [
+        "headline",
+        "flow_rail",
+        "table",
+        "source"
+      ],
+      "density": "very-high"
+    },
+    {
+      "layout_id": "internal.multi-table-benchmark",
+      "slide_number": 8,
+      "best_for": "Two related tables on one page, usually topline status on top and benchmark or ranking comparison below.",
+      "signals": [
+        "benchmark",
+        "okr",
+        "two tables",
+        "comparison",
+        "ranking"
+      ],
+      "required_slots": [
+        "headline",
+        "top_table",
+        "benchmark_table",
+        "insights"
+      ],
+      "density": "very-high"
+    },
+    {
+      "layout_id": "internal.phase-improvement-plan",
+      "slide_number": 9,
+      "best_for": "Breakdown table paired with specific improvement actions and quantified targets.",
+      "signals": [
+        "improvement plan",
+        "phase breakdown",
+        "lead time",
+        "action plan",
+        "target"
+      ],
+      "required_slots": [
+        "headline",
+        "context_summary",
+        "breakdown_table",
+        "improvement_cards",
+        "source"
+      ],
+      "density": "high"
+    },
+    {
+      "layout_id": "internal.ending",
+      "slide_number": 10,
+      "best_for": "Closing page with presenter, team, and contact information.",
+      "signals": [
+        "thank you",
+        "questions",
+        "contact",
+        "presenter"
+      ],
+      "required_slots": [
+        "title",
+        "presenter",
+        "team",
+        "contact"
+      ],
+      "density": "low"
+    }
+  ],
+  "slide_count": 10,
+  "status": "v5",
+  "layouts_are_reference_examples": true,
+  "post_generation_review": {
+    "required": true,
+    "reference": "references/shopee-template/visual-review.md",
+    "steps": [
+      "node scripts/shopee-template/lint-deck.mjs <deck.html>",
+      "node scripts/shopee-template/screenshot-deck.mjs <deck.html> <out>",
+      "per-slide visual checklist on rendered PNGs, fix and re-shoot until clean"
+    ]
+  }
+}

@@ -41,6 +41,12 @@
 - AI Eco workspace 自检要逐条独立判断 candidate signal；证据、scope、authority 或 entity mapping 不足时保留 `review_pending`，并保护 stable issue key 和 Rutong 人工决定。
 - Boss-facing deck 区分 observed delivery、observed usage 和 quantified impact；工程流程图压缩为 3-4 步决策链，Google Slides 写入后要做 fresh revision readback 和 rendered-thumbnail verification。
 
+## 9 月新增稳定信号
+
+- 1v1 AI-native onboarding 用客户自己的真实材料完成一次工作流迁移：先找可复用 Skill，再与 AI 澄清和比较路径，由人确认范围与验收标准，Agent 分阶段执行并接受 review。成功标准是客户能把这套起手方式迁移到下一个复杂任务。
+- LFF FBS churn 分析中，`Current` 是 cohort-relative 状态；复现 cohort 总量时要先固定 grain，并去重重复的 M0 / base rows。聚合后的 `Raw_v2` 可以支持规则拆解，不能补出 seller-level 历史标签。
+- 履历材料先维护 evidence-rich inventory，再按目标岗位压缩。HR 正式职位、功能定位、个人可归因机制、组织 adoption / impact 和 Portfolio scope 分开表达。
+
 ## 6 月已完成 / 活跃主题
 
 - AI Knowledge plan：Knowledge、Echo、Atlas、AI Eco PMO tracker、enterprise knowledge governance、Q2 update。

@@ -1,6 +1,6 @@
 ---
 name: rutong-ppt-html
-description: 为 Rutong Lin 创建、修改、review 或包装 PPT 和 HTML deck，覆盖 AI PMO、AI Eco、training、executive updates、layout previews、source sync、visual QA 和 deck-specific quality gates。
+description: 为 Rutong Lin 创建、修改、review 或包装 PPT 和 HTML deck，覆盖 AI PMO、AI Eco、training、executive updates、Shopee internal report template、browser-editable HTML、source sync、visual QA 和 deck-specific quality gates。
 ---
 
 # Rutong PPT HTML
@@ -18,11 +18,19 @@ description: 为 Rutong Lin 创建、修改、review 或包装 PPT 和 HTML deck
 ## 默认流程
 
 1. 先检查现有 deck 或 source material。
-2. 判断 mode：new deck、deck polish、HTML package、single-slide layout preview、executive report 或 sync fix。
+2. 判断 mode：new deck、deck polish、HTML package、single-slide layout preview、executive report、Shopee internal template 或 sync fix。
 3. Rutong 说内容不改时，必须保留原内容。
 4. 构建前先选 page archetypes：workflow bridge、capability stack、value stream、matrix、roadmap、screenshot evidence 或 hero statement。
 5. 检查 deck consistency：TOC、页面顺序、footer 页码、hidden slides、linked speaker notes。
 6. 能 render 或 preview 时必须验证。
+
+## Shopee Template Mode
+
+用户明确要求 Shopee template、Shopee internal report、weekly/monthly/quarterly review、browser-editable HTML、批注或 HTML export runtime 时，读：
+
+- `references/shopee-template-mode.md`
+
+该模式支持 native editable PPTX 与 browser-editable HTML。两种格式共用 story / evidence map，但分别原生生成，不互相转换。
 
 ## Rutong 专属规则
 

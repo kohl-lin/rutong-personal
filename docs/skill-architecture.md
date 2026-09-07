@@ -71,6 +71,21 @@
 
 - `rutong-ai-pmo` 补充业务文案与推广话术的结构规则：具体成果 → 趋势/需求 → 请求动作；详细反例沉淀在 `docs/working-style.md` 和 `references/adoption-reporting-playbook.md`。
 
+## 2026-08-25 更新
+
+- `rutong-ppt-html` 新增条件加载的 Shopee template mode，继续保持单一 PPT / HTML 入口。
+- 完整 bundle 包含 Shopee internal HTML template、10 个 layouts、browser edit/review/export runtime、packaging/lint/screenshot/runtime validation scripts，以及 55 页脱敏 PPTX style library。
+- Rutong 的 source-first、answer-first、evidence boundary 和 visual QA 规则优先于模板默认；固定 presenter tag、市场排序、ask panel 和示例文案不自动继承。
+- HTML 与 PPTX 共用 story / evidence map，但分别原生生成。上游 plugin metadata、release ZIP 和模板开发脚本不进入个人 skill。
+
+## 2026-09-07 更新
+
+- `rutong-working-style` 增加职业材料路由；稳定定位与证据边界放在 docs，执行规则放在 self-contained reference。
+- `rutong-ai-pmo` 与 `rutong-script` 增加 client-led AI-native onboarding：真实材料、人工范围与验收、Agent 分阶段执行和 review。
+- `rutong-bi-sql` 补充 cohort churn 复现规则：固定 grain、去重 M0 / base rows，并区分聚合数据和 seller-level 标签能力。
+- `rutong-tactful-comms` 增加通用的数据治理与交接边界表达，内容已泛化，不包含人员、组织、产品、内部系统或真实指标。
+- Shopee template 的两份相同 logo 分别服务 canonical packaging 与 self-contained template；保留双副本并用 hash 一致性门禁防止漂移。
+
 ## 为什么不做一个大 Skill
 
 一个大 skill 会混在一起：

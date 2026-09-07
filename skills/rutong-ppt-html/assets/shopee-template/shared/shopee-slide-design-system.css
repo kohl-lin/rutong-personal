@@ -1,0 +1,98 @@
+:root {
+  --shopee-orange: #ee4d2d;
+  --shopee-orange-dark: #d3422a;
+  --shopee-orange-soft: #fff1ec;
+  --shopee-orange-hot: #f65800;
+  --shopee-orange-light: #f37b62;
+  --shopee-red: #d0011b;
+  --shopee-red-bright: #e4380e;
+  --shopee-navy: #113366;
+  --shopee-navy-deep: #111340;
+  --shopee-blue: #0053de;
+  --shopee-blue-bright: #2794fb;
+  --shopee-cyan: #26aa99;
+  --shopee-teal: #3ce6ca;
+  --shopee-yellow: #ffbb00;
+  --shopee-yellow-bright: #ffbc1b;
+  --shopee-gold: #d2aa6e;
+  --shopee-green: #4caf50;
+  --shopee-green-bright: #70ad47;
+  --shopee-ink: #202325;
+  --shopee-black: #101010;
+  --shopee-muted: #757575;
+  --shopee-achromatic: #616161;
+  --shopee-line: #eeeff2;
+  --shopee-surface: #f9f9f9;
+  --shopee-white: #ffffff;
+  --shopee-logomark-no-text: url("../brand/logos/shopee-logomark-no-text-square.png");
+}
+
+.shopee-content-header {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.shopee-bag-mark {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  overflow: hidden;
+  color: transparent;
+  background: var(--shopee-orange) var(--shopee-logomark-no-text) center / cover no-repeat;
+  font-size: 0;
+}
+
+.shopee-kicker {
+  margin: 0;
+  color: var(--shopee-orange);
+  font: 900 18px/1.1 "Shopee2021 Bold", "ShopeeFont", "Noto Sans SC", "Roboto", Arial, sans-serif;
+}
+
+.shopee-headline {
+  margin: 4px 0 0;
+  color: var(--shopee-ink);
+  font: 900 34px/1.06 "Shopee2021 Bold", "ShopeeFont", "Noto Sans SC", "Roboto", Arial, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.shopee-title-rule {
+  height: 6px;
+  margin: 10px 0 18px;
+  background: linear-gradient(90deg, var(--shopee-orange) 0 calc(100% - 20px), transparent calc(100% - 20px));
+  position: relative;
+}
+
+.shopee-title-rule::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--shopee-orange);
+}
+
+.shopee-card {
+  background: var(--shopee-white);
+  border: 1px solid var(--shopee-line);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.shopee-note {
+  background: var(--shopee-orange-soft);
+  border: 1px solid rgba(238, 77, 45, 0.22);
+  border-radius: 14px;
+  padding: 12px 14px;
+  color: var(--shopee-ink);
+}
+
+.shopee-footer {
+  color: var(--shopee-muted);
+  font: 700 12px/1.25 "Roboto", "Noto Sans SC", Arial, sans-serif;
+}

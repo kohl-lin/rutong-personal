@@ -11,6 +11,8 @@
 - 2026-08-10：公开 `neat-freak` source 和 Dev product process training HTML 重新探活均返回 HTTP 200；Google private resource sample 仍返回 HTTP 401；DataSuite 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
 - 2026-08-17：公开 `neat-freak`、training HTML、Context Infrastructure article 和 reference implementation 均返回 HTTP 200；Google private resources 返回 HTTP 401；GitLab demo 和 Diana 入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
 - 2026-08-24：当前运行环境 sandbox 禁用外网（`CODEX_SANDBOX_NETWORK_DISABLED=1`），DNS 无法解析，`github.com`、`docs.google.com` 和 GitHub Pages 均无法重新探活；沿用上次 link audit 结果，状态继续记为 `blocked/unknown`，不把旧记录当成当次复核。
+- 2026-08-25：通过企业 Google SSO 验证内部 GitLab `shopee-template-slides` 项目可读，当前账号为 `@rutong.lin01`；下载并核对 `main` commit `0a30c14368d8e83f73d7a9f78b097891c0b9b637`。网页账号未登记 SSH key，因此本次使用 authenticated ZIP，不把 SSH clone 失败视为 project permission failure。
+- 2026-09-07：公开 `neat-freak`、training HTML、Context Infrastructure article 和 reference implementation 均返回 HTTP 200；Google private work diary 返回 HTTP 401；DataSuite 与 GitLab 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
 
 ## 培训 Phase 1
 
@@ -37,6 +39,9 @@
 |---|---|---|
 | Qu Yue PPTX deck skill zip | `/Users/rutong.lin01/Downloads/quyue-pptx-deck-share-20260703.zip` | 2026-07-06 已检查。可借鉴结构：精简 `SKILL.md`、references、script、template asset、quality gates。 |
 | Neat-freak skill source | https://github.com/KKKKhazix/khazix-skills/tree/main/neat-freak | 2026-07-06 已检查。适合借鉴定期 hygiene、resource cleanup、docs-memory 分层；不宜原样照搬。 |
+| Shopee template slides | https://gitlab-saas.shopeemobile.com/shopee-cncb/cncb-bi/seller-ops/skill/yuna/shopee-template-slides | 2026-08-25 已认证读取。精选整合进 `rutong-ppt-html`：Shopee internal HTML template、browser edit/review/export runtime、QA scripts、55 页脱敏 PPTX style library；上游 release/plugin packaging 未纳入。 |
+| AI-first Codex onboarding session design | `/Users/rutong.lin01/Documents/AI PMO/docs/superpowers/specs/2026-09-01-ai-first-codex-onboarding-session-design.md` | 2026-09-07 已读。沉淀 client-led 1v1 onboarding：真实材料、Skill-first、人工范围与验收、Agent 分阶段执行和 review。 |
+| Resume career inventory 2022-2026 | `/Users/rutong.lin01/Documents/rutong个人/resume-career-inventory-2022-2026.md` | 2026-09-07 已读。作为完整履历事实库；正式简历只使用已确认事实，并保持个人机制、组织结果和当前 live 状态的证据边界。 |
 
 ## Context Infrastructure 和 Workspace Governance
 

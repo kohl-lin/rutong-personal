@@ -12,6 +12,13 @@
 | 价值证明 | 是否节省时间、降低返工、提升响应速度 | saving time、ROI、before/after、case evidence |
 | 向上汇报 | 老板需要看到进展、风险、ask | executive update、monthly summary、decision ask |
 
+## 1v1 AI-native Onboarding
+
+- 使用参与者自己的真实复杂任务和设备，完成一次可审查的工作阶段；培训材料只承担引导，不替参与者操作。
+- 默认路径：先找可复用 Skill → 与 AI 澄清问题 → 比较路径 → 人确认范围与验收标准 → Agent 执行一个阶段 → review 后决定下一步。
+- 人负责目标、取舍、质量标准和是否继续；Agent 负责检索、分析、产物生成和自检。
+- 一次 session 的成功标准是参与者能把这套起手方式迁移到下一个任务，而不是记住功能清单或 prompt 模板。
+
 ## 向上汇报结构
 
 默认结构：

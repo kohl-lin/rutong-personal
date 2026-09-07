@@ -1,6 +1,6 @@
 ---
 name: rutong-working-style
-description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的长期工作、目标不清、skill 或知识库更新、AI PMO、deck/script/BI 请求，或需要 Codex 判断应该先澄清、直接本地执行、总结，还是路由到更聚焦的 Rutong skill。
+description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的长期工作、目标不清、skill 或知识库更新、AI PMO、deck/script/BI、职业材料请求，或需要 Codex 判断应该先澄清、直接本地执行、总结，还是路由到更聚焦的 Rutong skill。
 ---
 
 # Rutong Working Style
@@ -29,6 +29,7 @@ description: Rutong Lin 的默认协作风格和路由 skill。用于 Rutong 的
 - PPT、HTML deck、layout、slide polish、visual QA：用 `rutong-ppt-html`。
 - Speaker notes、培训讲稿、受众适配、现场互动提示：用 `rutong-script`。
 - SQL、Diana、BI data analysis、LFF Ops、CNLS、指标 debug：用 `rutong-bi-sql`。
+- 职业定位、简历、履历事实库：读 `references/career-materials.md`，先做证据 inventory 再压缩。
 
 ## 硬性质量闸门
 

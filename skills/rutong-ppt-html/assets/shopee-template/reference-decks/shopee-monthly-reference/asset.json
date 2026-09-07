@@ -1,0 +1,34 @@
+{
+  "id": "shopee-monthly-reference-55",
+  "kind": "cross-format-visual-reference",
+  "source": "reference.pptx",
+  "preview": "preview.png",
+  "contactSheet": "contact-sheet.png",
+  "catalog": "../../../../references/shopee-template/internal-visual-assets.md",
+  "slideCount": 55,
+  "aspectRatio": "16:9",
+  "sanitized": true,
+  "sha256": "377276054ce0d17635f921c99a07cea1272410207ceb264c7a2371cad5d3cc29",
+  "removedContent": [
+    "visible text and table values",
+    "charts and chart data",
+    "screenshots and slide-local images",
+    "speaker-note and comment content",
+    "slide object names",
+    "external hyperlinks and relationships"
+  ],
+  "retainedStructure": [
+    "55 empty note containers retained by the native PPTX exporter",
+    "9 masters and 303 structural layout parts; slides reference 17 unique layouts",
+    "safe master/layout matching names and embedded fonts"
+  ],
+  "usage": {
+    "html": "Translate selected slide patterns into native editable HTML using the shared Shopee shell and tokens.",
+    "pptx": "Use as Shopee visual direction by default; duplicate source slides only when exact reuse is explicitly requested."
+  },
+  "guardrails": [
+    "Keep the sanitized source PPTX unchanged.",
+    "Do not reintroduce source business data or confidential content.",
+    "Do not use slide screenshots as final output slides."
+  ]
+}
