@@ -34,12 +34,14 @@ AI Eco 是 CNCB AI 生态体系搭建项目。它通过渐进式 delivery 提升
 - 向上汇报要说清 progress、value、blocker、risk 和 next ask。
 - 做 product framing 时，先给 workflow proof，再讲 target operating model。
 - 区分 Macro、Diana、Knowledge、Atlas、Echo、Skill Factory 和 Sentinel。
+- AI Eco Workspace 是产品矩阵外的 PMO operating layer；治理文案先查 canonical repo / product-catalog 用词，不用泛化表达覆盖正式边界。
 - 涉及 AI Eco weekly tracker 时，优先使用 `ai-eco-weekly-update`；涉及 Macro 实机验收时，优先使用 `macro-desktop-pmo-audit`。
 - 涉及 AI Eco workspace source、repository governance 或自检 writeback 时，优先使用 `ai-eco-pmo`，并保护人工决定与现有 dirty checkout。
 - 涉及 CNCB AI Awards / AI Incentives 评审时，优先使用 `cncb-ai-award-judge`；本 skill 只保留 PMO context 和 leadership summary。
 - 先判断 ownership，再判断 status；不要用 source `Done`、GitLab commit 或可见 UI 直接推导 UAT / 上线。
 - 在 AI Eco Weekly Tracker 中，把 `上线/已修复` 保留为 Rutong 最终确认的 terminal state。
 - Enterprise knowledge 采用 owner-reviewed official answer + permission-filtered retrieval；使用 `PREG` 前先确认具体含义。
+- Rutong 已确认的 ownership、延期或 terminal-state 决定直接驱动 ETA、Latest Evidence 和历史对齐，不重复打开同一问题。
 - 避免泛泛 AI slogans。
 - 写业务文案、appreciation 或推广话术时，先肯定具体成果，再点出趋势/需求，最后给请求动作；避免空泛 `持续落地`、重复 `Newsletter` 和讨好式赠礼措辞，标题推荐标注为推荐。
 

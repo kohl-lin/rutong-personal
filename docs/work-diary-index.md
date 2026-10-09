@@ -46,6 +46,10 @@
 - 1v1 AI-native onboarding 用客户自己的真实材料完成一次工作流迁移：先找可复用 Skill，再与 AI 澄清和比较路径，由人确认范围与验收标准，Agent 分阶段执行并接受 review。成功标准是客户能把这套起手方式迁移到下一个复杂任务。
 - LFF FBS churn 分析中，`Current` 是 cohort-relative 状态；复现 cohort 总量时要先固定 grain，并去重重复的 M0 / base rows。聚合后的 `Raw_v2` 可以支持规则拆解，不能补出 seller-level 历史标签。
 - 履历材料先维护 evidence-rich inventory，再按目标岗位压缩。HR 正式职位、功能定位、个人可归因机制、组织 adoption / impact 和 Portfolio scope 分开表达。
+- 管理层交流总结以附件、文字稿和会议 transcript 为主证据，deck 只校准项目名、结构和数字；来源或时间窗不同的指标保持 source-qualified。
+- AI Eco Workspace 是 PMO operating layer，放在产品矩阵之外；治理页先查 canonical repo / product-catalog 用词，保留清晰层级和留白，不用额外指标填空。
+- 讲稿修改保留 Rutong 的口语逻辑和已确认页面，只改指定页；时间按页验证，并把讲稿、deck copy 建议和实际文件编辑分开报告。
+- 已提交的 Data Studio SQL 先只读回查 saved definition 和依赖链；未经授权不保存、重跑或重提。Static validation 与 runtime result / persistence proof 分开报告。
 
 ## 6 月已完成 / 活跃主题
 

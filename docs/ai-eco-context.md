@@ -69,6 +69,8 @@ Rutong 的 AI role 更接近 AI strategy PMO + product delivery operator：
 | Bedrock | Governance、policy、model routing、audit、cost 和 risk control |
 | Synapse | Event、API、webhook、callback 和 workflow integration layer |
 
+AI Eco Workspace 是跨产品的 PMO operating layer，用于连接产品边界、标准、source links、decision 和 audit evidence；它不进入产品矩阵，也不复制上游知识。
+
 ## 工作原则
 
 - 不要把 AI Eco 写成泛泛的 AI transformation。要落到 product delivery、workflow coverage、adoption、ROI 和 reusable assets。
@@ -78,3 +80,5 @@ Rutong 的 AI role 更接近 AI strategy PMO + product delivery operator：
 - 面向老板的页面要说清楚：变了什么、创造了什么价值、还有什么风险、需要什么决策或支持。
 - 数据工作采用 hybrid routing：固定 SQL、模板化或 scheduled extraction 走 Data Studio；探索性语义问题、Topic / Skill interaction 和 multi-turn clarification 走 Diana；SOP、定义和规则走 Knowledge / Echo；下游 Sheet、deck、report 和 writeback 由 Macro 的 artifact / workspace layer 承接。
 - 超过约 2k rows 的结果优先交付 materialized table、Data Studio Output、CSV 或 Data Services；LLM 只接收摘要和抽样 QA，避免把大结果集塞进对话。
+- 治理页或产品边界文案先查 canonical repo / product catalog 用词；source 不可用时标记 proposal，不把未验证 copy 写成正式定义。
+- Rutong 已确认的 ownership 或延期决定直接进入后续状态对齐；相关 ETA、Latest Evidence 和周历史保持一致，不重复打开同一决策。

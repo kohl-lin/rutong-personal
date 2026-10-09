@@ -60,3 +60,10 @@ Rutong 的角色接近 AI strategy PMO + product delivery operator：
 - 向上汇报要明确 progress、value、blocker、risk、next ask。
 - 数据工作采用 hybrid routing：固定 SQL、模板化或 scheduled extraction 走 Data Studio；探索性语义、Topic / Skill 和 multi-turn clarification 走 Diana；SOP、定义和规则走 Knowledge / Echo；Sheet、deck、report 和 writeback 留在 Macro 上层。
 - 超过约 2k rows 的结果优先交付 materialized table、Data Studio Output、CSV 或 Data Services；LLM 只接收摘要和抽样 QA。
+
+## AI Eco Workspace 边界
+
+- AI Eco Workspace 是跨产品的 PMO operating layer，不是产品矩阵中的一个产品。
+- 它维护产品边界、标准、source links、decision 和 audit evidence 的治理入口，不复制上游知识或业务数据。
+- 治理页的 labels 和数字含义先回到 canonical repo / product catalog；无法读取 source 时只提供 proposal，并保留验证 gate。
+- 已确认的 ownership 或延期决定直接写入相应治理表面；ETA、Latest Evidence 和周历史要一致，不重复询问同一决策。

@@ -16,4 +16,4 @@
 
 Google Slides API 可能出现 `SERVICE_DISABLED`。遇到时用 Drive export fallback，不要反复重试同一个 API。
 
-2026-08-10 link audit：当前未登录请求访问 Google private resource sample 返回 HTTP 401，link health 仍为 `blocked/unknown`；DataSuite 私有入口 HTTP 200 只证明入口可达；不要把历史已读记录或入口可达当成本次内容复核。
+2026-10-09 link audit：当前未登录请求访问 Google private work diary 返回 HTTP 401；Diana 与 GitLab 私有入口 HTTP 200 只证明入口可达，内容仍为 `blocked/unknown`。公开 `neat-freak`、training HTML 和 Context Infrastructure reference implementation 返回 HTTP 200，Context Infrastructure article 返回 HTTP 403。不要把历史已读记录或入口可达当成本次内容复核。

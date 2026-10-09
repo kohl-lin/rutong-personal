@@ -25,6 +25,7 @@
 - 当前 Codex 运行时优先用 SVG + bundled Node `sharp` 产出 PNG，再检查尺寸和渲染结果。
 - 没有最终 render 检查时，不要把 chart 视为已交付。
 - Google Slides 写入要基于 fresh revision，写后 readback，并检查 rendered thumbnail；只有 API success 或本地 HTML 不算 native slide 完成。
+- Copy proposal、source inspection、实际文件编辑和 delivery-ready QA 是不同状态；没有 source mutation、lint / render 和视觉检查时，只能报告 proposal 或 review。
 
 ## 常用 Archetype
 

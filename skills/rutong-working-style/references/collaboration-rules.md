@@ -10,6 +10,8 @@
 - 本地先改，确认后再 push 到 GitHub。
 - 只有真实任务出现 retrieval、routing、comprehension 或 validation failure 时，才升级 personal context infrastructure；不要从外部 framework 直接制造问题。
 - `rutong-personal` 默认保持 private；没有明确要求时，不增加团队共享层、public/private 双份维护或自动同步。
+- 管理层交流、跨团队分享或会议总结以附件、文字稿和 transcript 为主证据；deck 只用于校准名称、结构和数字，来源或时间窗不同的指标保持 source-qualified。
+- 用户已经接受的页面或段落保持不动，只改明确指定范围；用户只要文字 polish 时，不把链接或 source artifact 自动解释为编辑授权。
 
 ## 什么时候必须反问
 
@@ -32,3 +34,4 @@
 - 整理 usage / Ops Skill inventory 时，按相同工作目标、相似输入、相似步骤与规则、同类输出、相似验收标准聚类；用户侧名称保持 implementation-silent，backend routing 记录在内部视图。
 - usage log 的空 `answer` 是日志完整性信号；没有 observation-level evidence 时，不要直接归因为产品失败。
 - 参考架构只提供候选做法；先用实际使用反馈确认问题，再决定是否改变现有 skill / context 结构。
+- 区分 copy proposal、source inspection、实际文件编辑和 delivery-ready QA；没有写入、readback 或 render evidence 时，不报告为已交付。

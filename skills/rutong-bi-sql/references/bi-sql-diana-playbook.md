@@ -16,6 +16,13 @@
 - destructive SQL 要 archive first，再 delete / insert。
 - 如果无法本地跑真实 engine，只能说 static validation。
 
+## Submitted / Production SQL Validation
+
+- 先只读回查当前 saved definition、submission state 和依赖顺序；未经授权不 save、rerun、resubmit 或触发 downstream rebuild。
+- Saved SQL 语义正确只支持 static-validation 结论。Runtime success 需要 execution history、logs 或 result evidence；下游表已刷新需要独立 persistence / partition readback。
+- 上游 definition 变化后，沿 dependency chain 检查下游 reader 是否需要 rebuild；不要把上游保存成功当成最终指标已更新。
+- 区分 adoption attempt 与 successful active use。是否保留失败尝试由业务口径决定，不自动套 success-only filter；session / message / user grain 分别核对。
+
 ## 输出方式
 
 Rutong 通常要两层输出：

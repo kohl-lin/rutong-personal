@@ -29,6 +29,7 @@ debug 指标、生成或修改 SQL、分析 BI 数据，并把数据证据转成
 - 未验证前，不要在 Presto 里使用 Spark/Hive syntax。
 - 不要只看 template variables；必须检查 rendered values。
 - 本地无法运行真实 engine 时，要说明 static-validation 的限制。
+- 已提交或生产 SQL 默认只读回查；未经授权不 save、rerun 或 resubmit，并区分 saved definition、runtime result 和 downstream persistence。
 - LFF Ops summary 先写 source coverage 和每个 issue 的一句话结论，再写细节。
 
 ## 常见领域

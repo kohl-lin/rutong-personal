@@ -13,6 +13,7 @@
 - 2026-08-24：当前运行环境 sandbox 禁用外网（`CODEX_SANDBOX_NETWORK_DISABLED=1`），DNS 无法解析，`github.com`、`docs.google.com` 和 GitHub Pages 均无法重新探活；沿用上次 link audit 结果，状态继续记为 `blocked/unknown`，不把旧记录当成当次复核。
 - 2026-08-25：通过企业 Google SSO 验证内部 GitLab `shopee-template-slides` 项目可读，当前账号为 `@rutong.lin01`；下载并核对 `main` commit `0a30c14368d8e83f73d7a9f78b097891c0b9b637`。网页账号未登记 SSH key，因此本次使用 authenticated ZIP，不把 SSH clone 失败视为 project permission failure。
 - 2026-09-07：公开 `neat-freak`、training HTML、Context Infrastructure article 和 reference implementation 均返回 HTTP 200；Google private work diary 返回 HTTP 401；DataSuite 与 GitLab 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
+- 2026-10-09：公开 `neat-freak`、training HTML 和 Context Infrastructure reference implementation 返回 HTTP 200；Context Infrastructure article 返回 HTTP 403；Google private work diary 返回 HTTP 401；Diana 与 GitLab 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
 
 ## 培训 Phase 1
 

@@ -86,6 +86,14 @@
 - `rutong-tactful-comms` 增加通用的数据治理与交接边界表达，内容已泛化，不包含人员、组织、产品、内部系统或真实指标。
 - Shopee template 的两份相同 logo 分别服务 canonical packaging 与 self-contained template；保留双副本并用 hash 一致性门禁防止漂移。
 
+## 2026-10-09 更新
+
+- `rutong-working-style` 补充附件 / transcript 优先、bounded edit 和 copy-only 边界。
+- `rutong-ai-pmo` 明确 AI Eco Workspace 是产品矩阵外的 PMO operating layer，并保护已确认 decision 的后续一致性。
+- `rutong-ppt-html` 补充 canonical terminology、proposal / edited-file 状态与治理页信息层级门禁。
+- `rutong-script` 补充 spoken logic、逐页范围和 page-specific timing；`rutong-bi-sql` 补充 submitted SQL 的只读回查及 static / runtime 证据边界。
+- `rutong-tactful-comms` 本周没有新的跨公司通用规则，保持不变；全局 skill 继续以 repo 副本为 source of truth。
+
 ## 为什么不做一个大 Skill
 
 一个大 skill 会混在一起：

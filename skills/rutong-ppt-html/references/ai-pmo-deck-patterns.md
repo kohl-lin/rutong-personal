@@ -11,6 +11,8 @@
 
 Evidence label 要校准：分别写 `Observed delivery`、`Observed usage`、`Live mechanism proof` 和 `Quantified impact`。Memory call、trace、入口覆盖等 activity evidence 不能直接写成 cache-hit rate、cost saving 或业务 impact。
 
+AI Eco governance 页面先查 canonical repo / product-catalog 用词。AI Eco Workspace 作为 PMO operating layer 放在产品矩阵之外；治理规模与业务影响分开命名。保留关键数字和留白，不新增缺少决策价值的 headline metric，也不在可见页面放容易引出未准备细节的问题型数字。
+
 ## 推荐页面
 
 - `Executive update`：上方 2-3 条 highlights，下方证据图 / 表 / roadmap。
@@ -26,3 +28,4 @@ Evidence label 要校准：分别写 `Observed delivery`、`Observed usage`、`L
 - 五个等权卡片堆满字。
 - 用外部 framework 直接推出组织方案。
 - 把 speaker notes 放进页面。
+- 用产品对比或贬低现有工具来抬高新方案。

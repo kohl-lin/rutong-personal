@@ -21,7 +21,8 @@ description: 为 Rutong Lin 起草、修改或适配 speaker notes、training sc
 2. 明确受众：boss、BI、DI、AI Eco participant、非技术用户、training learner 或 cross-functional team。
 3. 判断任务类型：rewrite、shorten、page-level notes、audience adaptation、interaction prompts，或标注 keep/rewrite/de-emphasize sections。
 4. 保留页码和 deck references。
-5. 返回 copy-paste-ready 文本。
+5. 保留 Rutong 的口语逻辑和已确认页面，只改指定范围。
+6. 返回 copy-paste-ready 文本。
 
 ## 风格规则
 
@@ -30,6 +31,7 @@ description: 为 Rutong Lin 起草、修改或适配 speaker notes、training sc
 - 句子要短，适合直接讲。
 - 避免过度 polished 的 AI 味表达。
 - user adoption 表达要实际：用户能做什么、为什么有帮助、有什么支持。
+- 讲稿、deck copy 建议和实际文件编辑分开交付；按页验证 word count 和 timing，不用全稿平均语速替代页面时长。
 
 ## 常用互动表达
 
