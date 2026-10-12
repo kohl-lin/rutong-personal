@@ -73,6 +73,14 @@
 
 **边界**：技术评审、事故复盘和审计材料需要更多实现证据；仍应先说明它支持什么判断，避免把日志堆叠当成结论。
 
+## J9. Management tracker 只收需要管理动作的事项
+
+**原则**：会议候选 follow-up 逐项回到 transcript。明确承诺或具体 next step 进入 `Action Item`；需要单独对齐原则、治理或方案的议题进入 `Dedicated Sync`；重要但未决的 operating-model 设计进入 `Open Question`。Project status、roadmap 和 housekeeping 保留在 workstream tracker。
+
+**Tradeoff**：精简后的 tracker 无法展示全部项目活动，但能让管理者快速看到承诺、需要协调的议题和待决问题。
+
+**边界**：窄而具体的产品改进可以继续留在产品 tracker。Transcript 没有确认 Owner、日期或 commitment 时，保持 unknown；partner action list 和 deck summary 只作为检索线索。
+
 ## 反偏见检查
 
 交付前检查：

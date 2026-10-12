@@ -31,3 +31,15 @@
 - 聚合 cohort 总量前去重重复的 M0 / base rows，避免 base seller 或 MP ADO 被重复计入分母。
 - `months_since_cohort` 用于对齐不同起始月份的 cohort 生命周期；calendar month 与 cohort age 需要分开分析。
 - 聚合后的 `Raw_v2` 可以支持规则化 churn decomposition；需要 seller-level 历史标签或迁移路径时，必须取得 seller-grain source。
+
+## FBS Source Replacement
+
+- 替换敏感或不可用 source 时，明确列出 source-to-target field mapping，并保持业务 grain 和 date window 一致。
+- L30D backfill 先检查目标 30 个 distinct partitions；`available_days < 30` 时列出 missing dates，补齐后再解释 before / after diff。
+- MP-side model classification 使用与 inventory MP model key 对齐的字段；MT-SKU key 只用于对应的 MT-SKU grain。
+- 完成 SQL 更新后，用实际 Diana replay 和 output 证明 runtime；saved SQL、syntax check 或 Topic source list 只支持局部证据。
+
+## Bundle / Shared DWS Grain
+
+- Bundle parent / child attribution 要在 production join grain 上核对 sales 与 DOC；warehouse-grain table 可能保留 parent sales 并丢失 child 行。
+- Shared DWS 的 mixed grain 会导致 row multiplication。先用 producer lineage 找到 root source，定义安全唯一 key，再盘点下游 consumer；IPI、dashboard 或其他 downstream 只作为 symptom evidence。

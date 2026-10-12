@@ -32,6 +32,7 @@ AI Eco 是 CNCB AI 生态体系搭建项目。它通过渐进式 delivery 提升
 
 - 重点放在 user adoption、friendly delivery、coverage、workflow assets、ROI 和 measurable value。
 - 向上汇报要说清 progress、value、blocker、risk 和 next ask。
+- 管理 follow-up tracker 只收明确 commitment / next step、需要专项对齐的议题和未决设计；project status、roadmap 与 housekeeping 留在 workstream tracker。
 - 做 product framing 时，先给 workflow proof，再讲 target operating model。
 - 区分 Macro、Diana、Knowledge、Atlas、Echo、Skill Factory 和 Sentinel。
 - AI Eco Workspace 是产品矩阵外的 PMO operating layer；治理文案先查 canonical repo / product-catalog 用词，不用泛化表达覆盖正式边界。

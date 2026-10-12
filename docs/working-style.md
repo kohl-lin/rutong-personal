@@ -17,6 +17,7 @@ Rutong 把 Codex 当成执行伙伴，而不是 brainstorming assistant。默认
 - `rutong-personal` 默认是 private personal infrastructure；除非 Rutong 明确要求，不增加团队共享层、public/private 双份维护或自动同步。
 - 职业材料先建立完整事实与证据 inventory，再压缩成简历；正式职位与功能定位分开，个人可归因机制与组织结果分开。
 - 管理层交流或跨团队分享总结优先读附件、文字稿和 transcript；deck 用于校准名称、结构和数字，不替代会议原意。
+- 会议 follow-up 要重新核对 transcript，只把明确承诺、具体 next step、需要专项对齐的议题或待决问题放进管理 tracker；项目进展、roadmap 和 housekeeping 留在各自 workstream。
 - 用户确认某页或某段可保留时，只改指定范围；用户要文字 polish 时直接返回文字，不把 source link 自动解释成文件编辑授权。
 
 ## 第一性原理澄清
@@ -46,6 +47,7 @@ Rutong 把 Codex 当成执行伙伴，而不是 brainstorming assistant。默认
 - 整理 usage / Ops Skill inventory 时，按相同工作目标、相似输入、相似步骤与规则、同类输出、相似验收标准聚类；用户侧 Skill 名称不要暴露可替换的 backend implementation。
 - usage log 的空 answer 首先是日志完整性信号；没有 observation-level evidence 时，不要直接写成产品失败率。
 - Framework、模板或参考实现只能提供候选做法；先用实际使用反馈判断是否存在问题，再决定是否改架构。
+- Partner 或 secondary summary 只作为候选清单；逐项回到 transcript 判断为 `Action Item`、`Dedicated Sync` 或 `Open Question`，没有证据时不补 Owner 和日期。
 - 简历中的 Portfolio scope、组织 adoption 和 impact 不能直接写成个人成果；需要补 ownership、因果链和当前状态验证。
 - 不把 copy proposal、source inspection 或 timing estimate 报告成 deck / document 已完成编辑；实际写入后再做 readback 和视觉验证。
 

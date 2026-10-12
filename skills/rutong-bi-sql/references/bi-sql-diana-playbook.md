@@ -23,6 +23,13 @@
 - 上游 definition 变化后，沿 dependency chain 检查下游 reader 是否需要 rebuild；不要把上游保存成功当成最终指标已更新。
 - 区分 adoption attempt 与 successful active use。是否保留失败尝试由业务口径决定，不自动套 success-only filter；session / message / user grain 分别核对。
 
+## Source Replacement / Reconciliation
+
+- 先验证目标时间窗的 partition completeness；缺 partition 时列出缺口并停止解释 metric diff，补齐后再比较。
+- 在相同业务 grain 对齐 source-to-target mapping、join key、metric 和 residual keys；common-key metric 一致时仍要报告 old-only / new-only keys。
+- Saved definition 和 static check 只证明 SQL 已形成；runtime success 需要实际 replay / execution evidence，downstream persistence 需要独立 readback。
+- Shared DWS 出现重复或指标放大时，先证明唯一 grain、producer lineage 和所有 downstream consumers；consumer impact 明确后再决定 production change。
+
 ## 输出方式
 
 Rutong 通常要两层输出：
@@ -45,6 +52,11 @@ Rutong 通常要两层输出：
 - `/`、`-`、blank 视为 placeholder，不能直接参与分母、排序或环比计算。
 - 如果 conversion、impact 或 adoption rate 由多个字段推导出来，要写清推导链，不把推导值冒充成源表原生指标。
 - 缺少口径定义时，宁可标注 `inferred` / `needs confirmation`，也不要把估算结果写成 authoritative。
+
+## Sheet Writeback
+
+- 写入前确认输入是 increment 还是 final total，并用 header 与一个具体样例验证口径。
+- 使用 metadata-derived sheet ID 和 exact range 做一次 narrow batch update；readback 同时检查全部写入 cells 与相邻保护范围。
 
 ## Diana / Data Studio Hybrid Routing
 

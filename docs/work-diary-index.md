@@ -51,6 +51,14 @@
 - 讲稿修改保留 Rutong 的口语逻辑和已确认页面，只改指定页；时间按页验证，并把讲稿、deck copy 建议和实际文件编辑分开报告。
 - 已提交的 Data Studio SQL 先只读回查 saved definition 和依赖链；未经授权不保存、重跑或重提。Static validation 与 runtime result / persistence proof 分开报告。
 
+## 10 月新增稳定信号
+
+- 会议 follow-up 用 transcript 逐项复核候选清单：明确承诺或具体 next step 进入 `Action Item`，需要专项对齐的原则或治理议题进入 `Dedicated Sync`，未决 operating-model 设计进入 `Open Question`；项目进展、roadmap 和 housekeeping 留在 workstream tracker。
+- 替换敏感或不可用数据源时，先验证目标时间窗的 partition 完整性，再在相同业务 grain 比较 key、metric 和 residual diff；saved SQL 只证明定义，实际 replay 成功才是 runtime proof。
+- 共享 DWS 出现重复或指标放大时，先证明唯一 grain、producer lineage 和 downstream consumers；下游 IPI 或 dashboard 只负责暴露症状，production change 等 consumer impact 明确后再推进。
+- Sheet 写入前确认输入值是 increment 还是 final total，先读 header 与样例，再做 narrow-range batch update；readback 同时覆盖写入范围和相邻保护范围。
+- Curated Workbench 用 metadata 决定可见资源，完整 catalog 与 publish 由 canonical owner 承接；syntax / diff 检查只支持 static validation，浏览器交互、角色可见性和 copy flow 需要独立验证。
+
 ## 6 月已完成 / 活跃主题
 
 - AI Knowledge plan：Knowledge、Echo、Atlas、AI Eco PMO tracker、enterprise knowledge governance、Q2 update。

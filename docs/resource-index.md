@@ -14,6 +14,7 @@
 - 2026-08-25：通过企业 Google SSO 验证内部 GitLab `shopee-template-slides` 项目可读，当前账号为 `@rutong.lin01`；下载并核对 `main` commit `0a30c14368d8e83f73d7a9f78b097891c0b9b637`。网页账号未登记 SSH key，因此本次使用 authenticated ZIP，不把 SSH clone 失败视为 project permission failure。
 - 2026-09-07：公开 `neat-freak`、training HTML、Context Infrastructure article 和 reference implementation 均返回 HTTP 200；Google private work diary 返回 HTTP 401；DataSuite 与 GitLab 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
 - 2026-10-09：公开 `neat-freak`、training HTML 和 Context Infrastructure reference implementation 返回 HTTP 200；Context Infrastructure article 返回 HTTP 403；Google private work diary 返回 HTTP 401；Diana 与 GitLab 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；本地 Qu Yue PPTX skill zip 仍存在。
+- 2026-10-12：公开 `neat-freak`、training HTML、Context Infrastructure reference implementation 和 Shopee Design 返回 HTTP 200；Context Infrastructure article 返回 HTTP 403；全部已登记 Google private resources 返回 HTTP 401；DataSuite、MLP 与 GitLab 私有入口返回 HTTP 200 只证明入口可达，内容继续标记 `blocked/unknown`；已登记本地资源均存在。
 
 ## 培训 Phase 1
 
@@ -43,6 +44,9 @@
 | Shopee template slides | https://gitlab-saas.shopeemobile.com/shopee-cncb/cncb-bi/seller-ops/skill/yuna/shopee-template-slides | 2026-08-25 已认证读取。精选整合进 `rutong-ppt-html`：Shopee internal HTML template、browser edit/review/export runtime、QA scripts、55 页脱敏 PPTX style library；上游 release/plugin packaging 未纳入。 |
 | AI-first Codex onboarding session design | `/Users/rutong.lin01/Documents/AI PMO/docs/superpowers/specs/2026-09-01-ai-first-codex-onboarding-session-design.md` | 2026-09-07 已读。沉淀 client-led 1v1 onboarding：真实材料、Skill-first、人工范围与验收、Agent 分阶段执行和 review。 |
 | Resume career inventory 2022-2026 | `/Users/rutong.lin01/Documents/rutong个人/resume-career-inventory-2022-2026.md` | 2026-09-07 已读。作为完整履历事实库；正式简历只使用已确认事实，并保持个人机制、组织结果和当前 live 状态的证据边界。 |
+| CNCB BI monthly meeting transcript | `/Users/rutong.lin01/Documents/CNCB BI monthly meeting 2026-09-10 09:56(GMT+8:00).txt` | 2026-10-10 已复核。用于区分 Action Item、Dedicated Sync、Open Question，并把 project status / housekeeping 留在 workstream tracker。 |
+| CENO Knowledge Workbench demo | `/Users/rutong.lin01/Documents/ChatGPT/latam/ceno-knowledge-workbench-demo` | 2026-10-10 已读。Curated MCP & Skills、Loop canonical catalog 和 bundle publish 模型已确认；browser regression 与 scoped commit 证据仍是 `partial`。 |
+| CNLS FBS events replacement artifact | `/Users/rutong.lin01/Documents/ChatGPT/LFF/cnls-fbs-sku-monthly-inbound-pipeline-updated.md` | 2026-10-09 已读。记录 source mapping、30/30 partition gate、model/rank reconciliation 和 Diana runtime replay。 |
 
 ## Context Infrastructure 和 Workspace Governance
 

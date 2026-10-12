@@ -94,6 +94,13 @@
 - `rutong-script` 补充 spoken logic、逐页范围和 page-specific timing；`rutong-bi-sql` 补充 submitted SQL 的只读回查及 static / runtime 证据边界。
 - `rutong-tactful-comms` 本周没有新的跨公司通用规则，保持不变；全局 skill 继续以 repo 副本为 source of truth。
 
+## 2026-10-12 更新
+
+- `rutong-working-style` 增加会议 follow-up 的 transcript-first 筛选与三类管理动作边界。
+- `rutong-ai-pmo` 增加 management tracker admission gate：明确 commitment / next step、专项对齐和未决问题分别进入 `Action Item`、`Dedicated Sync`、`Open Question`。
+- `rutong-bi-sql` 增加 source replacement 的 partition completeness、runtime replay、shared-table grain / consumer impact 和 narrow Sheet writeback 门禁。
+- `rutong-ppt-html`、`rutong-script`、`rutong-tactful-comms` 本周没有新的稳定行为规则，保持不变。
+
 ## 为什么不做一个大 Skill
 
 一个大 skill 会混在一起：
